@@ -1,0 +1,11 @@
+{
+  "hemoglobin": { "min": 13.0, "max": 17.0, "unit": "g/dl" },
+  "total wbc count": { "min": 4000, "max": 11000, "unit": "/cumm" },
+  "neutrophils": { "min": 40, "max": 70, "unit": "%" },
+  "lymphocytes": { "min": 20, "max": 40, "unit": "%" },
+  "platelet count": { "min": 150000, "max": 450000, "unit": "/cumm" },
+  "glucose": { "min": 70, "max": 140, "unit": "mg/dl" },
+  "creatinine": { "min": 0.6, "max": 1.2, "unit": "mg/dl" },
+  "rbc": { "min": 4.5, "max": 5.5, "unit": "mil/cumm" },
+  "mcv": { "min": 80, "max": 100, "unit": "fl" }
+}
