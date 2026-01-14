@@ -1,0 +1,22 @@
+{
+  "hemoglobin": {
+    "low": 12.0,
+    "high": 16.0
+  },
+  "wbc": {
+    "low": 4.0,
+    "high": 11.0
+  },
+  "rbc": {
+    "low": 4.5,
+    "high": 5.5
+  },
+  "platelets": {
+    "low": 150.0,
+    "high": 400.0
+  },
+  "glucose": {
+    "low": 70.0,
+    "high": 140.0
+  }
+}
