@@ -5,7 +5,6 @@ from PIL import Image
 from pdf2image import convert_from_path
 
 def extract_text_from_pdf(pdf_path):
-    """Extract text from PDF file"""
     text = ""
     try:
         with pdfplumber.open(pdf_path) as pdf:
@@ -18,7 +17,6 @@ def extract_text_from_pdf(pdf_path):
     return text
 
 def extract_text_from_image(image_path):
-    """Extract text from image using OCR"""
     try:
         image = Image.open(image_path)
         text = pytesseract.image_to_string(image)
@@ -28,7 +26,6 @@ def extract_text_from_image(image_path):
         return ""
 
 def extract_text(file_path):
-    """Auto-detect file type and extract text"""
     if file_path.lower().endswith('.pdf'):
         return extract_text_from_pdf(file_path)
     elif file_path.lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp')):
@@ -38,7 +35,6 @@ def extract_text(file_path):
         return ""
 
 def extract_parameters(text):
-    """Extract blood parameters from text"""
     params = {}
     
     patterns = {
@@ -61,7 +57,6 @@ def extract_parameters(text):
     return params
 
 def validate(params):
-    """Basic validation of extracted parameters"""
     validated = {}
     
     ranges = {
