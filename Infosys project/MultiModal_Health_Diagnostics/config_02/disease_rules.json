@@ -1,0 +1,97 @@
+{
+  "Iron Deficiency Anemia": {
+    "conditions": {
+      "hemoglobin": "Low",
+      "rbc": "Low"
+    },
+    "risk_scores": {
+      "1": 40,
+      "2": 85
+    }
+  },
+
+  "Macrocytic Anemia": {
+    "conditions": {
+      "hemoglobin": "Low",
+      "mcv": "High"
+    },
+    "risk_scores": {
+      "1": 40,
+      "2": 85
+    }
+  },
+
+  "Diabetes Mellitus Risk": {
+    "conditions": {
+      "glucose": "High"
+    },
+    "risk_scores": {
+      "1": 85
+    }
+  },
+
+  "Prediabetes Risk": {
+    "conditions": {
+      "glucose": "Borderline"
+    },
+    "risk_scores": {
+      "1": 50
+    }
+  },
+
+  "Bacterial Infection Risk": {
+    "conditions": {
+      "wbc": "High",
+      "neutrophils": "High"
+    },
+    "risk_scores": {
+      "1": 40,
+      "2": 80
+    }
+  },
+
+  "Viral Infection Risk": {
+    "conditions": {
+      "lymphocytes": "High"
+    },
+    "risk_scores": {
+      "1": 70
+    }
+  },
+
+  "Cardiovascular Disease Risk": {
+    "conditions": {
+      "cholesterol": "High"
+    },
+    "risk_scores": {
+      "1": 70
+    }
+  },
+
+  "Liver Dysfunction Risk": {
+    "conditions": {
+      "bilirubin": "High"
+    },
+    "risk_scores": {
+      "1": 70
+    }
+  },
+
+  "Kidney Disease Risk": {
+    "conditions": {
+      "creatinine": "High"
+    },
+    "risk_scores": {
+      "1": 75
+    }
+  },
+
+  "Bleeding Disorder Risk": {
+    "conditions": {
+      "platelets": "Low"
+    },
+    "risk_scores": {
+      "1": 80
+    }
+  }
+}
