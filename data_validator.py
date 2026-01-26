@@ -1,19 +1,27 @@
 import pandas as pd
 
-REQUIRED_COLUMNS = [
-    "Glucose",
-    "Cholesterol",
-    "Hemoglobin",
-    "White Blood Cells",
-    "Red Blood Cells"
-]
+def validate_row(row):
+    required = [
+        "Age",
+        "Hemoglobin",
+        "Glucose",
+        "Cholesterol",
+        "White Blood Cells",
+        "Red Blood Cells"
+    ]
 
-def validate_and_clean(df):
-    df = df[REQUIRED_COLUMNS].copy()
+    for col in required:
+        if col not in row:
+            return False
 
-    for col in REQUIRED_COLUMNS:
-        df.loc[:, col] = df[col].apply(
-            lambda x: x if 0 <= x <= 1 else None
-        )
+        value = row[col]
 
-    return df.dropna()
+        if pd.isna(value):
+            return False
+
+        try:
+            float(value)
+        except:
+            return False
+
+    return True
