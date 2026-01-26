@@ -1,9 +1,15 @@
 import pandas as pd
 
-DATASET_PATH = "blood_dataset.csv"
+def load_dataset(path="blood_dataset.csv"):
+    df = pd.read_csv(path)
 
-def load_blood_dataset(path):
-    return pd.read_csv(path)
+    required_cols = [
+        "Age",
+        "Hemoglobin",
+        "Glucose",
+        "Cholesterol",
+        "White Blood Cells",
+        "Red Blood Cells"
+    ]
 
-df = load_blood_dataset(DATASET_PATH)
-df.head()
+    return df[required_cols]
