@@ -1,0 +1,12 @@
+{
+  "hemoglobin": {
+    "male": { "low": 13, "high": 17 },
+    "female": { "low": 12, "high": 15 },
+    "pregnant": { "low": 11, "high": 14 }
+  },
+  "rbc": {
+    "male": { "low": 4.5, "high": 5.9 },
+    "female": { "low": 4.1, "high": 5.1 },
+    "pregnant": { "low": 3.8, "high": 4.8 }
+  }
+}

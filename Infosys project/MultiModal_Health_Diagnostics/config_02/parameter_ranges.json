@@ -1,0 +1,9 @@
+{
+  "hemoglobin": { "low": 12, "high": 16 },
+  "rbc": { "low": 4.0, "high": 5.5 },
+  "wbc": { "low": 4000, "high": 11000 },
+  "platelets": { "low": 150000, "high": 450000 },
+  "glucose": { "low": 70, "high": 110 },
+  "bilirubin": { "low": 0.1, "high": 1.2 },
+  "cholesterol": { "low": 125, "high": 200 }
+}
