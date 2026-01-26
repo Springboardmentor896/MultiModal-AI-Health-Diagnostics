@@ -1,10 +1,25 @@
 def classify_parameter(value):
     if value < 0.33:
         return "Low"
-    elif value < 0.66:
-        return "Normal"
-    else:
+    elif value > 0.66:
         return "High"
+    else:
+        return "Normal"
 
-def interpret_row(row):
-    return {k: classify_parameter(v) for k, v in row.items()}
+
+def interpret_blood_report(row):
+    parameters = [
+        "Hemoglobin",
+        "Glucose",
+        "Cholesterol",
+        "White Blood Cells",
+        "Red Blood Cells"
+    ]
+
+    status_dict = {}
+
+    for param in parameters:
+        value = float(row[param])
+        status_dict[param] = classify_parameter(value)
+
+    return status_dict
