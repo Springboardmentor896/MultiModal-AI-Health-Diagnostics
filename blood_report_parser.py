@@ -1,45 +1,30 @@
-import pandas as pd
+import import_ipynb
+from data_ingestion import load_dataset
+from data_validator import validate_row
+from model_parameter_interpreter import interpret_blood_report
+from pattern_recognition_model import detect_patterns
 
+df = load_dataset()
 
-def load_blood_dataset(path):
-    return pd.read_csv(path)
+for i, row in df.iterrows():
+    if not validate_row(row):
+        continue
 
-REQUIRED_COLUMNS = [
-    "Glucose",
-    "Cholesterol",
-    "Hemoglobin",
-    "White Blood Cells",
-    "Red Blood Cells"
-]
+    status = interpret_blood_report(row)
+    age = int(row["Age"])
+    patterns = detect_patterns(status, age)
 
-def validate_and_clean(df):
-    df = df[REQUIRED_COLUMNS].copy()
+    print(f"\nPatient {i+1}")
+    print(f"Age - {age}\n")
 
-    for col in REQUIRED_COLUMNS:
-        df.loc[:, col] = df[col].apply(
-            lambda x: x if 0 <= x <= 1 else None
-        )
+    for param in status:
+        print(f"{param}: {row[param]:.6f} → {status[param]}")
 
-    return df.dropna()
-
-def classify_parameter(value):
-    if value < 0.33:
-        return "Low"
-    elif value < 0.66:
-        return "Normal"
+    print("\n\nPatterns Detected:")
+    if patterns:
+        for name, score, severity in patterns:
+            print(f"{name} (Risk Score - {score}, Severity - {severity})")
     else:
-        return "High"
+        print("None")
 
-def interpret_row(row):
-    return {k: classify_parameter(v) for k, v in row.items()}
-
-df = load_blood_dataset("blood_dataset.csv")
-clean_df = validate_and_clean(df)
-
-interpreted_series = clean_df.apply(interpret_row, axis=1)
-
-for idx, patient_data in enumerate(interpreted_series):
-    print(f"Patient {idx + 1}")
-    for key, value in patient_data.items():
-        print(f"{key}: {value}")
-    print()
+    print("-" * 60)
