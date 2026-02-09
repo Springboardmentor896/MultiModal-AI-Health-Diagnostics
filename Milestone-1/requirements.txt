@@ -1,0 +1,5 @@
+pandas
+opencv-python
+pytesseract
+pillow
+import-ipynb

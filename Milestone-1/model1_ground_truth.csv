@@ -1,0 +1,25 @@
+Parameter,Value,True_label
+Glucose,150,High
+Glucose,85,Normal
+Glucose,55,Low
+Hemoglobin,11,Low
+Hemoglobin,14.5,Normal
+Hemoglobin,18,High
+Cholesterol,230,High
+Cholesterol,170,Normal
+Cholesterol,110,Low
+White Blood Cells,13000,High
+White Blood Cells,8000,Normal
+White Blood Cells,3000,Low
+Red Blood Cells,6.2,High
+Red Blood Cells,5.1,Normal
+Red Blood Cells,3.9,Low
+Platelets,120000,Low
+Platelets,300000,Normal
+Platelets,500000,High
+Glucose,112,High
+Hemoglobin,12.2,Normal
+Cholesterol,205,High
+White Blood Cells,10900,Normal
+Red Blood Cells,4.25,Normal
+Platelets,149000,Low
