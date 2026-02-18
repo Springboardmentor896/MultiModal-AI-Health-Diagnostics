@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+pdfplumber
+pytesseract
+Pillow
+python-dotenv
