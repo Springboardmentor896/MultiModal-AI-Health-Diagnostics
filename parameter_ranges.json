@@ -1,7 +1,0 @@
-{
-  "Hemoglobin": { "low": 12, "high": 16 },
-  "Glucose": { "low": 70, "high": 110 },
-  "Cholesterol": { "low": 125, "high": 200 },
-  "White Blood Cells": { "low": 4, "high": 11 },
-  "Red Blood Cells": { "low": 4.2, "high": 5.9 }
-}
