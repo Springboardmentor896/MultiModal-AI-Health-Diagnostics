@@ -1,0 +1,26 @@
+# Core framework
+streamlit>=1.40.0
+pandas>=2.2.3
+numpy>=1.26.4
+
+# PDF processing
+pdfplumber>=0.11.0
+
+# Image OCR
+pytesseract>=0.3.13
+Pillow>=10.0.0
+
+# ML/Data science
+scikit-learn>=1.5.0
+scipy>=1.13.0
+
+# API calls (optional)
+openai>=1.0.0
+requests>=2.32.0
+
+# File handling
+openpyxl>=3.1.0
+python-multipart>=0.0.9
+
+# Logging
+python-json-logger>=2.0.0

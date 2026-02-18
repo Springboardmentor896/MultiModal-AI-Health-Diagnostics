@@ -1,0 +1,14 @@
+{
+  "diabetes_risk": {"ref": {"Fasting_Glucose": 80}, "conditions": {"high_Fasting_Glucose": 1.0}},
+  "cardiovascular_risk": {"ref": {"Total_Cholesterol": 150, "Systolic_BP": 110}, "conditions": {"high_Total_Cholesterol": 0.7, "high_Systolic_BP": 0.6, "low_HDL_Cholesterol": 0.5, "high_Triglycerides": 0.4}},
+  "anemia": {"ref": {"Hemoglobin": 14}, "conditions": {"low_Hemoglobin": 1.0, "low_Ferritin": 0.8}},
+  "kidney_dysfunction": {"ref": {"Serum_Creatinine": 0.9, "Urea": 15}, "conditions": {"high_Serum_Creatinine": 0.9, "high_Urea": 0.7}},
+  "liver_dysfunction": {"ref": {"Total_Bilirubin": 0.6, "ALT": 30, "AST": 25}, "conditions": {"high_Total_Bilirubin": 0.8, "high_ALT": 0.7, "high_AST": 0.7}},
+  "thyroid_dysfunction": {"ref": {"TSH": 2.0}, "conditions": {"high_TSH": 0.9, "low_TSH": 0.8}},
+  "hypertension": {"ref": {"Systolic_BP": 110, "Diastolic_BP": 70}, "conditions": {"high_Systolic_BP": 0.8, "high_Diastolic_BP": 0.7}},
+  "infection_risk": {"ref": {"WBC": 7.5}, "conditions": {"high_WBC": 1.0}},
+  "thrombocytopenia": {"ref": {"Platelets": 300}, "conditions": {"low_Platelets": 1.0}},
+  "electrolyte_imbalance": {"ref": {"Potassium": 4.2, "Sodium": 140}, "conditions": {"low_Potassium": 0.6, "high_Potassium": 0.6, "low_Sodium": 0.5, "high_Sodium": 0.5}},
+  "vitamin_d_deficiency": {"ref": {"Vitamin_D": 30}, "conditions": {"low_Vitamin_D": 1.0}},
+  "hemochromatosis_risk": {"ref": {"Ferritin": 200}, "conditions": {"high_Ferritin": 0.9}}
+}
