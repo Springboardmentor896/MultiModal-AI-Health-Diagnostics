@@ -1,6 +1,0 @@
-{
-  "Hemoglobin": {
-    "male_normal_50s": {"min": 13.5, "max": 17.5},
-    "female_normal_50s": {"min": 12.0, "max": 16.0}
-  }
-}
