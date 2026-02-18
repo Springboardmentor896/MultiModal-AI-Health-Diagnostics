@@ -1,0 +1,8 @@
+pandas
+opencv-python
+pytesseract
+pillow
+streamlit
+PyMuPDF
+pdf2image
+reportlab
