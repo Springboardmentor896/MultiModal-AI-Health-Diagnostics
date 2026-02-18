@@ -1,11 +1,12 @@
 
 def interpret(data):
     ref = {
-        "Hemoglobin": (12,16),
+        "Hemoglobin": (12,15),
         "Glucose": (70,110),
         "Cholesterol": (0,200),
-        "WBC": (4000,11000),
-        "Platelets": (1.5,4.5)
+        "WBC": (4000,10500),
+        # Platelets expressed in lakhs/cumm per user spec
+        "Platelets": (1.5,4.1)
     }
     result = {}
     for k,v in data.items():
