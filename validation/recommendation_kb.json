@@ -1,0 +1,63 @@
+{
+  "conditions": {
+    "Microcytic Anemia (Iron Deficiency Risk)": {
+      "diet": ["Increase iron-rich foods: Spinach, Red Meat, Lentils, Fortified Cereals.", "Consume Vitamin C (Oranges, Lemon) to aid iron absorption."],
+      "lifestyle": ["Avoid tea/coffee immediately after meals (inhibits iron absorption)."],
+      "medical": ["Consult a physician for iron supplementation dosage.", "Follow up with a repeat CBC in 1-2 months."]
+    },
+    "Macrocytic Anemia (B12 Deficiency Risk)": {
+      "diet": ["Increase Vitamin B12 intake: Eggs, Dairy, Poultry, Shellfish.", "For vegans: Consider B12 fortified foods or nutritional yeast."],
+      "lifestyle": [],
+      "medical": ["Check Serum B12 and Folate levels.", "Consult doctor for possible B12 injections or supplements."]
+    },
+    "Anemia of Chronic Disease": {
+      "diet": ["Maintain a balanced, nutrient-dense diet to support overall health."],
+      "lifestyle": [],
+      "medical": ["Focus on managing the underlying chronic condition (inflammation, infection, etc.).", "Consult your primary care physician."]
+    },
+    "Hyperglycemia (Diabetes Mellitus Risk)": {
+      "diet": ["Restrict simple sugars and refined carbohydrates (white bread, soda).", "Focus on high-fiber foods, whole grains, and lean proteins."],
+      "lifestyle": ["Engage in regular aerobic exercise (walking, swimming) for 30 mins/day.", "Monitor weight and aim for gradual weight loss if overweight."],
+      "medical": ["Test HbA1c to confirm diagnosis.", "Consult an Endocrinologist for management."]
+    },
+    "Renal Failure / Insufficiency": {
+      "diet": ["Restrict Sodium (salt) intake.", "Limit Potassium (bananas, potatoes) and excessive Protein depending on stage."],
+      "lifestyle": ["Stay hydrated (unless fluid restricted by doctor).", "Avoid NSAIDs (painkillers) that can harm kidneys."],
+      "medical": ["URGENT: Consult a Nephrologist immediately.", "Monitor urine output and blood pressure."]
+    },
+    "Liver Dysfunction (Hepatocellular)": {
+      "diet": ["Avoid alcohol completely.", "Limit fatty and fried foods."],
+      "lifestyle": ["Maintain a healthy weight."],
+      "medical": ["Consult a Gastroenterologist.", "Screen for Hepatitis if risk factors exist."]
+    },
+    "Obstructive Jaundice": {
+      "diet": ["Low-fat diet to reduce gallbladder stress."],
+      "lifestyle": [],
+      "medical": ["URGENT: Requires imaging (Ultrasound/CT) to check for biliary obstruction (stones/tumor)."]
+    },
+    "Acute Bacterial Infection": {
+      "diet": ["Stay well-hydrated."],
+      "lifestyle": ["Rest is essential for recovery."],
+      "medical": ["Consult a doctor immediately for physical exam and possible antibiotics."]
+    },
+    "Viral Infection Pattern": {
+      "diet": ["Fluids and electrolytes (soups, water)."],
+      "lifestyle": ["Isolate if contagious.", "Adequate sleep and rest."],
+      "medical": ["Symptomatic management (fever reducers).", "Seek help if symptoms worsen or breathing becomes difficult."]
+    },
+    "Dengue Fever Indicators": {
+      "diet": ["High fluid intake (coconut water, ORS) to prevent dehydration."],
+      "lifestyle": ["Strict bed rest."],
+      "medical": ["CRITICAL: Monitor Platelet count daily.", "Watch for warning signs (bleeding gums, severe abdominal pain). Hospitalization may be needed."]
+    },
+    "Dyslipidemia (High Cholesterol Risk)": {
+      "diet": ["Reduce Saturated Fats (red meat, full-fat dairy).", "Eliminate Trans Fats.", "Increase Omega-3 fatty acids (fish, walnuts)."],
+      "lifestyle": ["Quit smoking.", "Increase moderate-intensity cardio exercise."],
+      "medical": ["Consult doctor for lipid profile monitoring.", "Discuss statin therapy if lifestyle changes fail."]
+    }
+  },
+  "general": {
+    "Low": "Value is below normal range. Ensure adequate nutrition and sleep.",
+    "High": "Value is above normal range. Limit stress and inflammatory foods."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Hemoglobin": { "min": 13.0, "max": 17.0, "unit": "g/dL" },
+  "RBC Count": { "min": 4.5, "max": 5.5, "unit": "mill/cumm" },
+  "PCV": { "min": 40.0, "max": 50.0, "unit": "%" },
+  "MCV": { "min": 83.0, "max": 101.0, "unit": "fL" },
+  "MCH": { "min": 27.0, "max": 32.0, "unit": "pg" },
+  "MCHC": { "min": 31.5, "max": 34.5, "unit": "g/dL" },
+  "RDW": { "min": 11.6, "max": 14.0, "unit": "%" },
+  "MPV": { "min": 6.0, "max": 12.0, "unit": "fL" },
+  "PCT": { "min": 0.1, "max": 0.5, "unit": "%" },
+  
+  "Total WBC": { "min": 4000, "max": 11000, "unit": "/cumm" },
+  "Neutrophils": { "min": 40, "max": 70, "unit": "%" },
+  "Lymphocytes": { "min": 20, "max": 40, "unit": "%" },
+  "Monocytes": { "min": 2, "max": 10, "unit": "%" },
+  "Eosinophils": { "min": 1, "max": 6, "unit": "%" },
+  "Basophils": { "min": 0, "max": 1, "unit": "%" },
+  
+  "Absolute Neutrophils": { "min": 2000, "max": 7000, "unit": "/cumm" },
+  "Absolute Lymphocytes": { "min": 1000, "max": 3000, "unit": "/cumm" },
+  "Absolute Monocytes": { "min": 200, "max": 1000, "unit": "/cumm" },
+  "Absolute Eosinophils": { "min": 20, "max": 500, "unit": "/cumm" },
+
+  "Platelet Count": { "min": 150000, "max": 450000, "unit": "/cumm" },
+  "ESR": { "min": 0, "max": 20, "unit": "mm/hr" },
+  
+  "Glucose": { "min": 70, "max": 140, "unit": "mg/dL" },
+  "Blood Urea": { "min": 15, "max": 45, "unit": "mg/dL" },
+  "Creatinine": { "min": 0.6, "max": 1.2, "unit": "mg/dL" },
+  "Uric Acid": { "min": 3.5, "max": 7.2, "unit": "mg/dL" },
+  
+  "Total Bilirubin": { "min": 0.3, "max": 1.2, "unit": "mg/dL" },
+  "Direct Bilirubin": { "min": 0.0, "max": 0.3, "unit": "mg/dL" },
+  "Indirect Bilirubin": { "min": 0.2, "max": 0.8, "unit": "mg/dL" },
+  "SGOT (AST)": { "min": 5, "max": 40, "unit": "U/L" },
+  "SGPT (ALT)": { "min": 5, "max": 40, "unit": "U/L" },
+  "Alkaline Phosphatase": { "min": 44, "max": 147, "unit": "U/L" },
+  "Total Protein": { "min": 6.0, "max": 8.3, "unit": "g/dL" },
+  "Albumin": { "min": 3.5, "max": 5.2, "unit": "g/dL" },
+  "Globulin": { "min": 2.0, "max": 3.5, "unit": "g/dL" },
+  "A/G Ratio": { "min": 1.0, "max": 2.2, "unit": "ratio" },
+  
+  "Sodium": { "min": 136, "max": 145, "unit": "mmol/L" },
+  "Potassium": { "min": 3.5, "max": 5.1, "unit": "mmol/L" },
+  "Chloride": { "min": 98, "max": 107, "unit": "mmol/L" },
+  "Calcium": { "min": 8.6, "max": 10.3, "unit": "mg/dL" },
+  
+  "CRP": { "min": 0, "max": 6, "unit": "mg/L" },
+  "INR": { "min": 0.8, "max": 1.2, "unit": "ratio" }
+}

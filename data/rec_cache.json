@@ -1,0 +1,36 @@
+{
+  "7f3f68e435c11edfab511e91a729487f": {
+    "diet": [
+      "Strictly abstain from all alcoholic beverages to prevent further liver damage.",
+      "Adopt a liver-friendly diet rich in fruits, vegetables, whole grains, and lean proteins, while limiting processed foods, excessive sugars, and saturated fats.",
+      "Ensure adequate hydration by drinking plenty of water throughout the day."
+    ],
+    "lifestyle": [
+      "Achieve and maintain a healthy weight through balanced nutrition and regular physical activity to reduce strain on the liver.",
+      "Engage in moderate, regular exercise (e.g., walking, cycling) as advised by a physician to improve overall metabolic health.",
+      "Avoid self-prescribing over-the-counter medications, herbal remedies, or supplements without explicit approval from your doctor, as many can be hepatotoxic."
+    ],
+    "medical": [
+      "Urgently consult a Hepatologist or Gastroenterologist for a comprehensive evaluation, diagnosis, and management plan for the identified liver dysfunction.",
+      "Undergo further diagnostic testing as recommended, which may include liver imaging (e.g., ultrasound, MRI), viral hepatitis panels, autoimmune markers, and other specific blood tests to determine the cause of liver damage.",
+      "Review all current medications with your physician to ensure they are not contributing to liver injury and to address the elevated MCV, which can be associated with liver disease or other underlying conditions."
+    ]
+  },
+  "30f1ca5207d410583a4a03c4b74582fa": {
+    "diet": [
+      "Stay well-hydrated with water, broths, and electrolyte-rich fluids.",
+      "Consume a diet rich in immune-boosting nutrients like Vitamin C (citrus, berries) and Zinc (lean meats, nuts).",
+      "Opt for easily digestible foods such as soups, cooked vegetables, and lean proteins to conserve energy."
+    ],
+    "lifestyle": [
+      "Ensure adequate rest and sleep (7-9 hours) to support immune recovery and energy conservation.",
+      "Avoid strenuous physical activities or contact sports to minimize the risk of injury or bleeding due to low platelet count.",
+      "Practice strict hand hygiene and avoid close contact with sick individuals to prevent secondary infections."
+    ],
+    "medical": [
+      "Promptly consult a physician for a thorough evaluation, specific diagnosis, and management plan given the low WBC and platelet counts.",
+      "Monitor closely for any signs of bleeding (bruising, petechiae, nosebleeds) or worsening infection symptoms (fever, persistent fatigue).",
+      "Avoid over-the-counter NSAIDs (e.g., ibuprofen, aspirin) due to their anti-platelet effects, which could exacerbate bleeding risk."
+    ]
+  }
+}

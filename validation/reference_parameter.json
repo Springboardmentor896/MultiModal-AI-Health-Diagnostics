@@ -1,0 +1,118 @@
+{
+  "Hemoglobin": {
+    "aliases": ["haemoglobin", "hemoglobin", "hgb", "hb"],
+    "min": 13.0, "max": 17.0, "unit": "g/dL"
+  },
+  "RBC Count": {
+    "aliases": ["rbc", "red blood cell", "total r.b.c. count", "erythrocyte count"],
+    "min": 4.5, "max": 5.5, "unit": "mill/cumm"
+  },
+  "PCV": {
+    "aliases": ["pcv", "packed cell volume", "hct", "haematocrit", "hematocrit"],
+    "min": 40.0, "max": 50.0, "unit": "%"
+  },
+  "MCV": {
+    "aliases": ["mcv", "mean corpuscular volume", "mean cell volume"],
+    "min": 83.0, "max": 101.0, "unit": "fL"
+  },
+  "MCH": {
+    "aliases": ["mch", "mean corpuscular hemoglobin", "mean cell hemoglobin"],
+    "min": 27.0, "max": 32.0, "unit": "pg"
+  },
+  "MCHC": {
+    "aliases": ["mchc", "mean corpuscular hb conc", "mean cell hb conc"],
+    "min": 31.5, "max": 34.5, "unit": "g/dL"
+  },
+  "RDW": {
+    "aliases": ["rdw", "red cell distribution width", "rdw-cv", "rdw-sd"],
+    "min": 11.6, "max": 14.0, "unit": "%"
+  },
+  "Total WBC": {
+    "aliases": ["tlc", "total leukocyte", "total wbc", "wbc count", "leukocyte count"],
+    "min": 4000, "max": 11000, "unit": "/cumm"
+  },
+  "Neutrophils": {
+    "aliases": ["neutrophil", "neutrophils", "polymorphs", "segs", "segmenters"],
+    "min": 40, "max": 70, "unit": "%"
+  },
+  "Lymphocytes": {
+    "aliases": ["lymphocyte", "lymphocytes"],
+    "min": 20, "max": 40, "unit": "%"
+  },
+  "Monocytes": {
+    "aliases": ["monocyte", "monocytes"],
+    "min": 2, "max": 10, "unit": "%"
+  },
+  "Eosinophils": {
+    "aliases": ["eosinophil", "eosinophils"],
+    "min": 1, "max": 6, "unit": "%"
+  },
+  "Basophils": {
+    "aliases": ["basophil", "basophils"],
+    "min": 0, "max": 1, "unit": "%"
+  },
+  "Platelet Count": {
+    "aliases": ["platelet", "platelets", "plt", "thrombocyte count"],
+    "min": 150000, "max": 450000, "unit": "/cumm"
+  },
+  "ESR": {
+    "aliases": ["esr", "erythrocyte sedimentation rate", "westergren"],
+    "min": 0, "max": 20, "unit": "mm/hr"
+  },
+  "Glucose": {
+    "aliases": ["glucose", "sugar", "blood sugar", "fbs", "rbs", "ppbs", "plasma glucose", "glucose (fasting)"],
+    "min": 70, "max": 100, "unit": "mg/dL"
+  },
+  "Blood Urea": {
+    "aliases": ["blood urea", "urea", "bun", "blood urea nitrogen"],
+    "min": 15, "max": 45, "unit": "mg/dL"
+  },
+  "Creatinine": {
+    "aliases": ["creatinine", "s.creatinine", "serum creatinine", "creat"],
+    "min": 0.7, "max": 1.3, "unit": "mg/dL"
+  },
+  "Uric Acid": {
+    "aliases": ["uric acid", "serum uric acid"],
+    "min": 3.5, "max": 7.2, "unit": "mg/dL"
+  },
+  "Total Bilirubin": {
+    "aliases": ["bilirubin total", "total bilirubin", "t. bilirubin"],
+    "min": 0.3, "max": 1.2, "unit": "mg/dL"
+  },
+  "Direct Bilirubin": {
+    "aliases": ["bilirubin direct", "direct bilirubin", "d. bilirubin", "conjugated bilirubin"],
+    "min": 0.0, "max": 0.3, "unit": "mg/dL"
+  },
+  "Indirect Bilirubin": {
+    "aliases": ["bilirubin indirect", "indirect bilirubin", "unconjugated bilirubin"],
+    "min": 0.2, "max": 0.8, "unit": "mg/dL"
+  },
+  "SGOT (AST)": {
+    "aliases": ["sgot", "ast", "aspartate aminotransferase", "sgot (ast)"],
+    "min": 10, "max": 40, "unit": "U/L"
+  },
+  "SGPT (ALT)": {
+    "aliases": ["sgpt", "alt", "alanine aminotransferase", "sgpt (alt)"],
+    "min": 10, "max": 40, "unit": "U/L"
+  },
+  "Alkaline Phosphatase": {
+    "aliases": ["alkaline phosphatase", "alp", "alk phos"],
+    "min": 44, "max": 147, "unit": "U/L"
+  },
+  "Total Cholesterol": {
+    "aliases": ["cholesterol", "total cholesterol", "s. cholesterol"],
+    "min": 125, "max": 200, "unit": "mg/dL"
+  },
+  "Triglycerides": {
+    "aliases": ["triglycerides", "tgl", "s. triglycerides"],
+    "min": 50, "max": 150, "unit": "mg/dL"
+  },
+  "HDL Cholesterol": {
+    "aliases": ["hdl", "hdl cholesterol", "high density lipoprotein"],
+    "min": 40, "max": 60, "unit": "mg/dL"
+  },
+  "LDL Cholesterol": {
+    "aliases": ["ldl", "ldl cholesterol", "low density lipoprotein"],
+    "min": 60, "max": 130, "unit": "mg/dL"
+  }
+}
