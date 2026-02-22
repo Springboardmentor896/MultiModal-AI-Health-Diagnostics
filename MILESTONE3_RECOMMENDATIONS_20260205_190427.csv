@@ -1,0 +1,1005 @@
+<<<<<<< HEAD
+PatientID,Age,Gender,Hemoglobin,WBC,Platelets,RiskLevel,RiskScore,AffectedSystems,PrimaryFindings,RecommendationCount,FollowUpPeriod
+1,54,Female,15.0,9020,380280,Low,0,None,None,0,2 weeks
+2,34,Male,15.2,5517,281065,Low,0,None,None,0,2 weeks
+3,69,Male,11.7,8452,388669,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+4,35,Female,14.5,5722,309200,Low,0,None,None,0,2 weeks
+5,45,Male,13.2,8258,357618,Low,0,None,None,0,2 weeks
+6,39,Female,13.6,5644,389759,Low,0,None,None,0,2 weeks
+7,43,Male,12.3,5739,373428,Low,0,None,None,0,2 weeks
+8,64,Male,15.7,10570,284038,Low,0,None,None,0,2 weeks
+9,20,Male,14.1,7891,183645,Low,0,None,None,0,2 weeks
+10,39,Female,14.9,8508,391411,Low,0,None,None,0,2 weeks
+11,31,Female,15.3,9124,262697,Low,0,None,None,0,2 weeks
+12,56,Male,15.8,10516,352366,Low,0,None,None,0,2 weeks
+13,24,Male,14.1,8999,268261,Low,0,None,None,0,2 weeks
+14,57,Male,13.3,7837,256713,Low,0,None,None,0,2 weeks
+15,44,Male,13.8,7761,352003,Low,0,None,None,0,2 weeks
+16,58,Female,15.2,10491,374260,Low,0,None,None,0,2 weeks
+17,72,Female,13.3,7382,359423,Low,0,None,None,0,2 weeks
+18,27,Female,11.4,7271,321983,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+19,27,Female,15.0,6772,206856,Low,0,None,None,0,2 weeks
+20,77,Male,12.3,6434,185826,Low,0,None,None,0,2 weeks
+21,73,Female,14.7,4794,367158,Low,0,None,None,0,2 weeks
+22,30,Male,16.5,8731,316339,Low,0,None,Elevated hemoglobin,0,2 weeks
+23,55,Female,12.7,6424,282877,Low,0,None,None,0,2 weeks
+24,41,Female,14.5,10504,195782,Low,0,None,None,0,2 weeks
+25,26,Female,13.9,9303,346729,Low,0,None,None,0,2 weeks
+26,55,Male,13.9,9305,334973,Low,0,None,None,0,2 weeks
+27,65,Male,13.0,6721,259803,Low,0,None,None,0,2 weeks
+28,59,Male,15.2,5687,367644,Low,0,None,None,0,2 weeks
+29,23,Male,13.6,5864,159000,Low,0,None,None,0,2 weeks
+30,34,Female,12.4,7761,238332,Low,0,None,None,0,2 weeks
+31,62,Male,13.4,5930,303735,Low,0,None,None,0,2 weeks
+32,45,Male,11.7,6707,387964,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+33,26,Female,13.4,8639,246127,Low,0,None,None,0,2 weeks
+34,35,Female,14.7,6704,327172,Low,0,None,None,0,2 weeks
+35,61,Female,14.6,6327,399584,Low,0,None,None,0,2 weeks
+36,68,Female,13.5,6040,155224,Low,0,None,None,0,2 weeks
+37,21,Male,15.8,8763,160958,Low,0,None,None,0,2 weeks
+38,70,Female,13.9,9351,177594,Low,0,None,None,0,2 weeks
+39,44,Female,12.8,10682,379675,Low,0,None,None,0,2 weeks
+40,44,Female,13.8,8609,296255,Low,0,None,None,0,2 weeks
+41,23,Female,12.4,7413,243525,Low,0,None,None,0,2 weeks
+42,78,Female,13.3,5785,282499,Low,0,None,None,0,2 weeks
+43,34,Female,13.5,8171,350492,Low,0,None,None,0,2 weeks
+44,46,Male,14.9,6917,255540,Low,0,None,None,0,2 weeks
+45,32,Female,12.6,7089,217673,Low,0,None,None,0,2 weeks
+46,42,Female,12.8,6017,315575,Low,0,None,None,0,2 weeks
+47,37,Female,11.9,6054,306522,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+48,21,Female,14.1,10317,343804,Low,0,None,None,0,2 weeks
+49,56,Male,14.1,7092,348212,Low,0,None,None,0,2 weeks
+50,74,Male,14.1,7448,342686,Low,0,None,None,0,2 weeks
+51,54,Male,11.8,5708,152553,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+52,66,Female,12.4,7013,348562,Low,0,None,None,0,2 weeks
+53,26,Male,13.0,9501,163867,Low,0,None,None,0,2 weeks
+54,49,Male,14.0,9108,164194,Low,0,None,None,0,2 weeks
+55,65,Male,13.3,10567,295805,Low,0,None,None,0,2 weeks
+56,78,Male,13.0,9809,295137,Low,0,None,None,0,2 weeks
+57,69,Female,13.8,10073,242741,Low,0,None,None,0,2 weeks
+58,36,Female,14.5,6295,159082,Low,0,None,None,0,2 weeks
+59,74,Female,13.3,9848,390825,Low,0,None,None,0,2 weeks
+60,46,Female,13.5,8504,331362,Low,0,None,None,0,2 weeks
+61,43,Female,14.1,10558,245189,Low,0,None,None,0,2 weeks
+62,37,Male,12.4,7097,281187,Low,0,None,None,0,2 weeks
+63,42,Male,13.2,9507,204779,Low,0,None,None,0,2 weeks
+64,73,Female,10.8,4968,216060,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+65,68,Female,12.3,10499,393456,Low,0,None,None,0,2 weeks
+66,37,Male,14.6,6215,268864,Low,0,None,None,0,2 weeks
+67,75,Female,11.4,7862,194978,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+68,26,Male,13.6,6973,296848,Low,0,None,None,0,2 weeks
+69,75,Female,15.2,8813,162309,Low,0,None,None,0,2 weeks
+70,63,Male,16.2,8166,233969,Low,0,None,Elevated hemoglobin,0,2 weeks
+71,59,Male,16.0,7381,387662,Low,0,None,None,0,2 weeks
+72,23,Female,13.2,9443,199358,Low,0,None,None,0,2 weeks
+73,69,Male,12.7,4747,308565,Low,0,None,None,0,2 weeks
+74,20,Female,14.4,10074,319220,Low,0,None,None,0,2 weeks
+75,34,Male,13.8,5001,232478,Low,0,None,None,0,2 weeks
+76,37,Female,14.7,7925,250132,Low,0,None,None,0,2 weeks
+77,22,Male,11.1,6921,268925,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+78,35,Male,13.1,5105,261990,Low,0,None,None,0,2 weeks
+79,54,Male,12.6,7870,324273,Low,0,None,None,0,2 weeks
+80,40,Female,15.5,10813,269795,Low,0,None,None,0,2 weeks
+81,40,Female,13.4,10570,326469,Low,0,None,None,0,2 weeks
+82,45,Female,17.3,7121,276690,Low,0,None,Elevated hemoglobin,0,2 weeks
+83,77,Male,13.7,4929,318882,Low,0,None,None,0,2 weeks
+84,76,Female,15.5,8501,243567,Low,0,None,None,0,2 weeks
+85,74,Male,13.7,8353,324295,Low,0,None,None,0,2 weeks
+86,39,Male,13.0,6729,214876,Low,0,None,None,0,2 weeks
+87,41,Male,11.8,5517,167346,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+88,50,Male,13.1,10430,192688,Low,0,None,None,0,2 weeks
+89,23,Female,10.3,7492,220822,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+90,55,Female,15.2,8384,188024,Low,0,None,None,0,2 weeks
+91,31,Male,12.6,10035,317205,Low,0,None,None,0,2 weeks
+92,22,Male,12.9,10811,167417,Low,0,None,None,0,2 weeks
+93,53,Female,13.1,8601,198528,Low,0,None,None,0,2 weeks
+94,73,Female,12.2,9467,352136,Low,0,None,None,0,2 weeks
+95,68,Male,12.5,8574,246628,Low,0,None,None,0,2 weeks
+96,37,Male,16.9,7564,353101,Low,0,None,Elevated hemoglobin,0,2 weeks
+97,27,Male,13.9,10465,233491,Low,0,None,None,0,2 weeks
+98,47,Female,14.6,8062,232456,Low,0,None,None,0,2 weeks
+99,22,Female,12.2,6364,185971,Low,0,None,None,0,2 weeks
+100,57,Female,11.9,10458,152306,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+101,36,Female,15.6,6007,176629,Low,0,None,None,0,2 weeks
+102,79,Male,12.1,10958,187806,Low,0,None,None,0,2 weeks
+103,24,Female,14.8,8425,248513,Low,0,None,None,0,2 weeks
+104,37,Female,17.9,9589,334669,Low,0,None,Elevated hemoglobin,0,2 weeks
+105,58,Female,14.0,6276,197364,Low,0,None,None,0,2 weeks
+106,53,Male,14.9,9699,336384,Low,0,None,None,0,2 weeks
+107,53,Male,12.2,10579,333673,Low,0,None,None,0,2 weeks
+108,40,Male,13.8,10627,280821,Low,0,None,None,0,2 weeks
+109,76,Female,12.5,9922,205764,Low,0,None,None,0,2 weeks
+110,56,Female,12.9,5320,327018,Low,0,None,None,0,2 weeks
+111,78,Female,11.1,8199,392203,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+112,39,Female,14.2,6021,296246,Low,0,None,None,0,2 weeks
+113,49,Female,14.2,6506,161528,Low,0,None,None,0,2 weeks
+114,31,Female,14.2,10836,225557,Low,0,None,None,0,2 weeks
+115,68,Female,13.8,5368,190801,Low,0,None,None,0,2 weeks
+116,54,Female,16.6,8218,344503,Low,0,None,Elevated hemoglobin,0,2 weeks
+117,35,Male,14.6,7576,399047,Low,0,None,None,0,2 weeks
+118,78,Male,13.5,8333,222487,Low,0,None,None,0,2 weeks
+119,45,Female,13.0,8316,168564,Low,0,None,None,0,2 weeks
+120,48,Male,13.2,10010,166035,Low,0,None,None,0,2 weeks
+121,42,Male,14.6,10489,258360,Low,0,None,None,0,2 weeks
+122,52,Male,12.2,8800,169197,Low,0,None,None,0,2 weeks
+123,70,Male,13.1,8049,366915,Low,0,None,None,0,2 weeks
+124,34,Male,10.5,4803,311866,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+125,75,Female,12.4,8383,392259,Low,0,None,None,0,2 weeks
+126,32,Male,14.8,5721,188689,Low,0,None,None,0,2 weeks
+127,77,Male,13.2,7354,281626,Low,0,None,None,0,2 weeks
+128,72,Female,12.5,6719,197671,Low,0,None,None,0,2 weeks
+129,45,Female,14.8,5374,207029,Low,0,None,None,0,2 weeks
+130,57,Female,12.2,5202,236362,Low,0,None,None,0,2 weeks
+131,40,Male,11.9,4718,285532,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+132,25,Female,13.5,7731,370478,Low,0,None,None,0,2 weeks
+133,32,Female,12.8,9972,197475,Low,0,None,None,0,2 weeks
+134,30,Male,12.8,4795,191625,Low,0,None,None,0,2 weeks
+135,24,Male,12.9,4711,174782,Low,0,None,None,0,2 weeks
+136,45,Male,13.1,7658,286600,Low,0,None,None,0,2 weeks
+137,41,Female,13.2,8665,219481,Low,0,None,None,0,2 weeks
+138,72,Female,13.7,6587,353003,Low,0,None,None,0,2 weeks
+139,24,Female,12.2,9828,245385,Low,0,None,None,0,2 weeks
+140,53,Female,12.8,10089,170170,Low,0,None,None,0,2 weeks
+141,61,Male,13.1,5302,277391,Low,0,None,None,0,2 weeks
+142,55,Female,12.6,8906,362241,Low,0,None,None,0,2 weeks
+143,79,Male,12.4,7468,164756,Low,0,None,None,0,2 weeks
+144,21,Male,14.3,4651,358805,Low,0,None,None,0,2 weeks
+145,32,Female,13.0,9208,368882,Low,0,None,None,0,2 weeks
+146,26,Male,11.3,5620,203712,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+147,29,Male,14.9,10163,257467,Low,0,None,None,0,2 weeks
+148,51,Female,10.7,7012,370000,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+149,36,Male,15.5,5587,394423,Low,0,None,None,0,2 weeks
+150,36,Female,14.8,6845,258950,Low,0,None,None,0,2 weeks
+151,60,Female,12.9,6208,170296,Low,0,None,None,0,2 weeks
+152,66,Male,13.7,6696,181790,Low,0,None,None,0,2 weeks
+153,78,Female,13.5,9952,196026,Low,0,None,None,0,2 weeks
+154,21,Male,7.9,8480,196073,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+155,63,Male,11.8,8953,311031,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+156,74,Female,11.4,5054,208909,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+157,39,Female,13.7,6295,216638,Low,0,None,None,0,2 weeks
+158,45,Male,14.0,10991,194975,Low,0,None,None,0,2 weeks
+159,21,Male,13.9,10466,372122,Low,0,None,None,0,2 weeks
+160,71,Female,12.6,9638,192689,Low,0,None,None,0,2 weeks
+161,21,Male,11.3,7660,300139,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+162,38,Male,15.9,9128,300000,Low,0,None,None,0,2 weeks
+163,57,Male,12.8,6917,165532,Low,0,None,None,0,2 weeks
+164,75,Female,10.5,5635,390039,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+165,68,Male,12.8,7714,224407,Low,0,None,None,0,2 weeks
+166,70,Male,14.5,8216,337682,Low,0,None,None,0,2 weeks
+167,77,Male,17.1,7670,184497,Low,0,None,Elevated hemoglobin,0,2 weeks
+168,20,Male,12.7,5254,380387,Low,0,None,None,0,2 weeks
+169,68,Female,12.0,8528,245943,Low,0,None,None,0,2 weeks
+170,62,Female,13.0,7870,340610,Low,0,None,None,0,2 weeks
+171,63,Male,11.5,10818,245404,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+172,69,Female,16.3,10373,207265,Low,0,None,Elevated hemoglobin,0,2 weeks
+173,21,Male,14.2,7847,360869,Low,0,None,None,0,2 weeks
+174,60,Female,14.2,7020,206124,Low,0,None,None,0,2 weeks
+175,23,Male,14.8,8109,395603,Low,0,None,None,0,2 weeks
+176,65,Female,13.1,6852,182398,Low,0,None,None,0,2 weeks
+177,54,Male,14.8,8823,195136,Low,0,None,None,0,2 weeks
+178,60,Male,11.8,10834,310695,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+179,26,Male,13.8,6748,273749,Low,0,None,None,0,2 weeks
+180,59,Female,10.9,5345,241966,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+181,57,Female,12.9,9957,364798,Low,0,None,None,0,2 weeks
+182,78,Male,13.4,8785,313415,Low,0,None,None,0,2 weeks
+183,31,Female,11.5,6116,206169,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+184,36,Male,14.1,6727,314460,Low,0,None,None,0,2 weeks
+185,55,Male,11.9,5403,331753,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+186,25,Female,11.4,5599,311500,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+187,21,Female,13.9,7212,319177,Low,0,None,None,0,2 weeks
+188,27,Female,14.6,4937,334246,Low,0,None,None,0,2 weeks
+189,66,Male,12.7,6120,280476,Low,0,None,None,0,2 weeks
+190,38,Male,13.9,7657,259686,Low,0,None,None,0,2 weeks
+191,32,Female,14.4,7024,315239,Low,0,None,None,0,2 weeks
+192,71,Male,12.9,7493,230345,Low,0,None,None,0,2 weeks
+193,62,Male,11.9,7464,164254,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+194,53,Male,14.6,5028,253349,Low,0,None,None,0,2 weeks
+195,21,Female,13.5,10554,154249,Low,0,None,None,0,2 weeks
+196,34,Female,11.4,5661,248274,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+197,29,Male,11.5,8136,242072,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+198,56,Male,13.8,10693,208880,Low,0,None,None,0,2 weeks
+199,39,Female,11.9,6208,206560,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+200,20,Male,12.8,6573,181760,Low,0,None,None,0,2 weeks
+201,24,Male,14.0,5660,355113,Low,0,None,None,0,2 weeks
+202,77,Male,12.3,6444,362451,Low,0,None,None,0,2 weeks
+203,76,Female,14.9,10300,249914,Low,0,None,None,0,2 weeks
+204,61,Male,14.6,4595,351263,Low,0,None,None,0,2 weeks
+205,25,Female,13.1,6207,365723,Low,0,None,None,0,2 weeks
+206,43,Female,11.5,8998,172150,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+207,22,Female,13.3,8880,219451,Low,0,None,None,0,2 weeks
+208,42,Male,12.7,10751,223788,Low,0,None,None,0,2 weeks
+209,71,Female,13.0,8894,237707,Low,0,None,None,0,2 weeks
+210,59,Female,13.4,10966,245093,Low,0,None,None,0,2 weeks
+211,20,Male,13.3,5445,270989,Low,0,None,None,0,2 weeks
+212,48,Female,15.0,6772,305934,Low,0,None,None,0,2 weeks
+213,53,Male,15.4,5436,354282,Low,0,None,None,0,2 weeks
+214,77,Female,13.1,9394,241701,Low,0,None,None,0,2 weeks
+215,68,Female,13.5,9841,386970,Low,0,None,None,0,2 weeks
+216,39,Female,12.7,6022,328493,Low,0,None,None,0,2 weeks
+217,23,Female,13.7,4870,168630,Low,0,None,None,0,2 weeks
+218,75,Male,14.7,9226,156868,Low,0,None,None,0,2 weeks
+219,59,Female,15.3,6481,395840,Low,0,None,None,0,2 weeks
+220,31,Male,10.1,10379,181398,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+221,39,Female,11.6,8691,286174,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+222,33,Male,14.0,9571,219929,Low,0,None,None,0,2 weeks
+223,40,Male,14.6,9598,178595,Low,0,None,None,0,2 weeks
+224,46,Female,12.4,5397,376277,Low,0,None,None,0,2 weeks
+225,66,Female,11.2,6244,358786,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+226,77,Female,13.5,8903,206291,Low,0,None,None,0,2 weeks
+227,70,Male,15.2,4702,326765,Low,0,None,None,0,2 weeks
+228,25,Female,13.8,9083,336922,Low,0,None,None,0,2 weeks
+229,67,Male,14.7,7482,296677,Low,0,None,None,0,2 weeks
+230,48,Male,13.3,6852,290430,Low,0,None,None,0,2 weeks
+231,75,Male,14.1,8974,336888,Low,0,None,None,0,2 weeks
+232,34,Female,13.9,9251,282764,Low,0,None,None,0,2 weeks
+233,73,Female,15.3,8638,211963,Low,0,None,None,0,2 weeks
+234,50,Male,12.6,7412,190853,Low,0,None,None,0,2 weeks
+235,34,Female,14.2,10888,182083,Low,0,None,None,0,2 weeks
+236,34,Female,13.7,5116,349076,Low,0,None,None,0,2 weeks
+237,70,Female,12.7,7269,324133,Low,0,None,None,0,2 weeks
+238,74,Male,13.1,7805,242172,Low,0,None,None,0,2 weeks
+239,71,Male,14.0,4503,279484,Low,0,None,None,0,2 weeks
+240,21,Female,14.8,7938,370080,Low,0,None,None,0,2 weeks
+241,79,Male,13.4,6713,299292,Low,0,None,None,0,2 weeks
+242,74,Male,12.8,6073,319473,Low,0,None,None,0,2 weeks
+243,66,Female,15.6,8187,357975,Low,0,None,None,0,2 weeks
+244,57,Male,13.3,8280,374521,Low,0,None,None,0,2 weeks
+245,40,Male,14.9,4783,280770,Low,0,None,None,0,2 weeks
+246,40,Female,13.4,9986,273773,Low,0,None,None,0,2 weeks
+247,42,Female,13.0,10172,302242,Low,0,None,None,0,2 weeks
+248,57,Female,13.4,8992,328952,Low,0,None,None,0,2 weeks
+249,67,Male,14.8,7407,332145,Low,0,None,None,0,2 weeks
+250,74,Female,14.8,8967,286936,Low,0,None,None,0,2 weeks
+251,71,Female,14.2,8184,161515,Low,0,None,None,0,2 weeks
+252,34,Male,14.7,7068,279421,Low,0,None,None,0,2 weeks
+253,34,Female,13.6,7274,229403,Low,0,None,None,0,2 weeks
+254,54,Female,15.1,7552,380107,Low,0,None,None,0,2 weeks
+255,33,Female,14.2,9318,253047,Low,0,None,None,0,2 weeks
+256,72,Male,12.6,7949,232245,Low,0,None,None,0,2 weeks
+257,24,Male,11.9,7604,291163,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+258,36,Male,14.9,8045,175840,Low,0,None,None,0,2 weeks
+259,79,Male,10.5,10968,374191,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+260,68,Female,15.6,5097,259552,Low,0,None,None,0,2 weeks
+261,38,Male,13.0,5560,385224,Low,0,None,None,0,2 weeks
+262,45,Female,14.1,6997,267898,Low,0,None,None,0,2 weeks
+263,21,Male,15.2,4529,294132,Low,0,None,None,0,2 weeks
+264,47,Female,14.9,5721,234177,Low,0,None,None,0,2 weeks
+265,66,Female,14.7,10550,308109,Low,0,None,None,0,2 weeks
+266,53,Female,13.8,9671,159400,Low,0,None,None,0,2 weeks
+267,65,Male,12.9,7906,191328,Low,0,None,None,0,2 weeks
+268,39,Male,13.7,6879,388406,Low,0,None,None,0,2 weeks
+269,21,Female,14.4,9828,233750,Low,0,None,None,0,2 weeks
+270,34,Female,19.0,6824,226218,Low,0,None,Elevated hemoglobin,0,2 weeks
+271,35,Male,12.5,4846,342116,Low,0,None,None,0,2 weeks
+272,51,Female,13.5,6407,231706,Low,0,None,None,0,2 weeks
+273,37,Male,14.4,5246,207874,Low,0,None,None,0,2 weeks
+274,35,Male,10.2,5931,152568,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+275,54,Female,15.9,9082,298232,Low,0,None,None,0,2 weeks
+276,74,Female,12.3,5569,164968,Low,0,None,None,0,2 weeks
+277,20,Female,9.1,6188,343796,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+278,44,Male,16.1,5088,386908,Low,0,None,Elevated hemoglobin,0,2 weeks
+279,52,Male,16.1,5386,268024,Low,0,None,Elevated hemoglobin,0,2 weeks
+280,75,Male,14.2,8976,182394,Low,0,None,None,0,2 weeks
+281,62,Female,13.2,8677,162782,Low,0,None,None,0,2 weeks
+282,54,Female,11.9,4559,250350,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+283,37,Male,14.7,7806,377749,Low,0,None,None,0,2 weeks
+284,56,Female,12.9,7626,262253,Low,0,None,None,0,2 weeks
+285,52,Male,12.6,10530,230036,Low,0,None,None,0,2 weeks
+286,67,Female,13.1,7133,219261,Low,0,None,None,0,2 weeks
+287,47,Male,14.1,7687,234790,Low,0,None,None,0,2 weeks
+288,50,Female,13.3,4956,266552,Low,0,None,None,0,2 weeks
+289,23,Female,13.7,9613,280403,Low,0,None,None,0,2 weeks
+290,26,Female,12.5,6169,281172,Low,0,None,None,0,2 weeks
+291,29,Female,13.7,10698,313958,Low,0,None,None,0,2 weeks
+292,31,Male,13.0,10868,307023,Low,0,None,None,0,2 weeks
+293,57,Male,12.4,6615,379900,Low,0,None,None,0,2 weeks
+294,78,Male,13.1,6779,158779,Low,0,None,None,0,2 weeks
+295,27,Female,12.5,6148,184606,Low,0,None,None,0,2 weeks
+296,38,Female,12.2,9418,252427,Low,0,None,None,0,2 weeks
+297,71,Male,13.7,6785,307371,Low,0,None,None,0,2 weeks
+298,52,Male,10.3,10366,205603,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+299,49,Female,15.4,9969,262782,Low,0,None,None,0,2 weeks
+300,59,Female,12.8,7323,292342,Low,0,None,None,0,2 weeks
+301,62,Male,17.1,5933,239965,Low,0,None,Elevated hemoglobin,0,2 weeks
+302,28,Female,10.9,4759,326700,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+303,62,Female,11.1,5329,348450,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+304,77,Female,12.4,10398,341075,Low,0,None,None,0,2 weeks
+305,40,Female,12.2,4949,269114,Low,0,None,None,0,2 weeks
+306,27,Female,16.4,5391,330873,Low,0,None,Elevated hemoglobin,0,2 weeks
+307,30,Male,11.9,4865,253322,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+308,51,Male,13.1,5264,182795,Low,0,None,None,0,2 weeks
+309,26,Male,12.7,4896,205102,Low,0,None,None,0,2 weeks
+310,52,Male,11.2,10975,337707,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+311,50,Male,11.3,5544,323045,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+312,38,Male,15.0,7603,313766,Low,0,None,None,0,2 weeks
+313,69,Male,12.6,4715,398655,Low,0,None,None,0,2 weeks
+314,79,Female,14.6,6800,310028,Low,0,None,None,0,2 weeks
+315,57,Male,13.4,5178,306250,Low,0,None,None,0,2 weeks
+316,51,Female,11.7,6232,357466,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+317,38,Male,15.1,5957,318863,Low,0,None,None,0,2 weeks
+318,30,Female,9.6,10852,365044,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+319,34,Female,11.4,8260,389195,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+320,33,Female,13.6,6091,341325,Low,0,None,None,0,2 weeks
+321,28,Male,13.4,4877,175905,Low,0,None,None,0,2 weeks
+322,73,Male,11.7,9842,388409,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+323,59,Male,15.0,7029,390132,Low,0,None,None,0,2 weeks
+324,67,Female,14.3,7752,219718,Low,0,None,None,0,2 weeks
+325,79,Male,14.7,9626,215516,Low,0,None,None,0,2 weeks
+326,35,Male,16.2,7244,279365,Low,0,None,Elevated hemoglobin,0,2 weeks
+327,35,Male,15.1,10381,194081,Low,0,None,None,0,2 weeks
+328,27,Female,14.0,8105,242063,Low,0,None,None,0,2 weeks
+329,47,Female,13.6,10628,180708,Low,0,None,None,0,2 weeks
+330,22,Female,13.1,4901,192133,Low,0,None,None,0,2 weeks
+331,66,Male,14.6,5287,297660,Low,0,None,None,0,2 weeks
+332,55,Male,13.5,9204,307251,Low,0,None,None,0,2 weeks
+333,66,Male,11.2,6244,355098,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+334,37,Female,15.3,6740,310360,Low,0,None,None,0,2 weeks
+335,58,Female,13.5,9432,198702,Low,0,None,None,0,2 weeks
+336,79,Male,14.4,5290,325305,Low,0,None,None,0,2 weeks
+337,65,Female,14.6,10632,319249,Low,0,None,None,0,2 weeks
+338,32,Female,11.4,6473,362616,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+339,26,Female,13.2,10811,253645,Low,0,None,None,0,2 weeks
+340,60,Male,15.2,6942,180517,Low,0,None,None,0,2 weeks
+341,27,Male,13.0,8349,281124,Low,0,None,None,0,2 weeks
+342,38,Female,12.2,9960,345279,Low,0,None,None,0,2 weeks
+343,44,Female,12.2,9341,297856,Low,0,None,None,0,2 weeks
+344,46,Male,15.5,7182,272876,Low,0,None,None,0,2 weeks
+345,49,Female,13.1,10773,368565,Low,0,None,None,0,2 weeks
+346,67,Female,13.8,5434,262958,Low,0,None,None,0,2 weeks
+347,28,Male,12.7,5325,347991,Low,0,None,None,0,2 weeks
+348,70,Female,14.4,8004,248942,Low,0,None,None,0,2 weeks
+349,38,Male,13.5,9835,282791,Low,0,None,None,0,2 weeks
+350,57,Female,12.6,10324,344866,Low,0,None,None,0,2 weeks
+351,21,Female,14.3,7163,192800,Low,0,None,None,0,2 weeks
+352,77,Female,14.1,5725,283346,Low,0,None,None,0,2 weeks
+353,77,Male,13.6,10730,247453,Low,0,None,None,0,2 weeks
+354,51,Female,11.3,8679,287205,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+355,72,Male,13.3,6878,200473,Low,0,None,None,0,2 weeks
+356,43,Female,14.6,5404,384838,Low,0,None,None,0,2 weeks
+357,72,Female,16.0,7322,270271,Low,0,None,None,0,2 weeks
+358,44,Female,14.5,9168,231904,Low,0,None,None,0,2 weeks
+359,38,Male,11.9,9873,287499,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+360,22,Male,14.0,10251,376049,Low,0,None,None,0,2 weeks
+361,25,Female,15.0,8183,325620,Low,0,None,None,0,2 weeks
+362,29,Male,12.0,6122,384454,Low,0,None,None,0,2 weeks
+363,21,Male,13.2,6768,157634,Low,0,None,None,0,2 weeks
+364,50,Female,12.6,8954,207550,Low,0,None,None,0,2 weeks
+365,51,Female,15.6,10290,151327,Low,0,None,None,0,2 weeks
+366,37,Female,15.9,5227,381015,Low,0,None,None,0,2 weeks
+367,55,Female,11.0,10863,207714,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+368,35,Female,15.9,9525,225451,Low,0,None,None,0,2 weeks
+369,46,Female,12.0,9331,312151,Low,0,None,None,0,2 weeks
+370,74,Male,12.4,9503,343844,Low,0,None,None,0,2 weeks
+371,35,Male,13.9,10743,331901,Low,0,None,None,0,2 weeks
+372,38,Male,12.2,10601,353954,Low,0,None,None,0,2 weeks
+373,53,Male,14.5,7418,259784,Low,0,None,None,0,2 weeks
+374,74,Male,12.1,6989,260433,Low,0,None,None,0,2 weeks
+375,60,Male,12.7,8438,282227,Low,0,None,None,0,2 weeks
+376,23,Female,9.6,4546,214036,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+377,45,Female,15.5,6194,334959,Low,0,None,None,0,2 weeks
+378,32,Female,14.3,9177,273504,Low,0,None,None,0,2 weeks
+379,79,Female,11.4,6883,208587,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+380,38,Female,13.5,10415,234116,Low,0,None,None,0,2 weeks
+381,41,Male,12.0,5003,365034,Low,0,None,None,0,2 weeks
+382,47,Male,15.8,7758,370960,Low,0,None,None,0,2 weeks
+383,66,Female,14.6,4920,275090,Low,0,None,None,0,2 weeks
+384,59,Female,11.8,8833,223406,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+385,51,Male,16.7,9669,242827,Low,0,None,Elevated hemoglobin,0,2 weeks
+386,78,Female,12.0,4763,156825,Low,0,None,None,0,2 weeks
+387,36,Male,14.1,8167,272051,Low,0,None,None,0,2 weeks
+388,24,Male,12.3,5658,361211,Low,0,None,None,0,2 weeks
+389,40,Male,13.4,8360,356433,Low,0,None,None,0,2 weeks
+390,20,Female,12.8,10254,239305,Low,0,None,None,0,2 weeks
+391,72,Male,14.5,6188,271887,Low,0,None,None,0,2 weeks
+392,20,Female,14.2,4531,249488,Low,0,None,None,0,2 weeks
+393,21,Male,13.8,10264,237596,Low,0,None,None,0,2 weeks
+394,70,Female,12.3,10632,362214,Low,0,None,None,0,2 weeks
+395,64,Male,14.5,4558,205772,Low,0,None,None,0,2 weeks
+396,75,Female,14.0,7000,319187,Low,0,None,None,0,2 weeks
+397,48,Male,12.6,9290,182248,Low,0,None,None,0,2 weeks
+398,72,Female,13.7,7524,207114,Low,0,None,None,0,2 weeks
+399,27,Male,12.1,7609,297860,Low,0,None,None,0,2 weeks
+400,77,Female,15.1,4738,293597,Low,0,None,None,0,2 weeks
+401,29,Female,14.3,9603,330281,Low,0,None,None,0,2 weeks
+402,24,Male,13.8,10178,200396,Low,0,None,None,0,2 weeks
+403,31,Female,15.1,8497,305908,Low,0,None,None,0,2 weeks
+404,39,Female,10.8,7610,308037,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+405,60,Female,13.9,7518,387263,Low,0,None,None,0,2 weeks
+406,64,Female,9.0,9331,394567,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+407,39,Female,12.8,7062,399911,Low,0,None,None,0,2 weeks
+408,48,Male,16.1,7080,165066,Low,0,None,Elevated hemoglobin,0,2 weeks
+409,26,Male,16.3,6942,166945,Low,0,None,Elevated hemoglobin,0,2 weeks
+410,61,Female,14.0,6744,230502,Low,0,None,None,0,2 weeks
+411,29,Male,13.3,4839,353104,Low,0,None,None,0,2 weeks
+412,55,Female,13.3,10993,394373,Low,0,None,None,0,2 weeks
+413,56,Male,13.1,9884,316489,Low,0,None,None,0,2 weeks
+414,40,Female,16.3,5891,353138,Low,0,None,Elevated hemoglobin,0,2 weeks
+415,36,Female,12.9,10774,321160,Low,0,None,None,0,2 weeks
+416,54,Female,12.2,9602,237898,Low,0,None,None,0,2 weeks
+417,68,Male,14.4,7249,229643,Low,0,None,None,0,2 weeks
+418,50,Female,12.0,5958,230416,Low,0,None,None,0,2 weeks
+419,32,Female,14.1,5613,361971,Low,0,None,None,0,2 weeks
+420,65,Male,13.6,7659,161594,Low,0,None,None,0,2 weeks
+421,57,Male,12.3,4709,319939,Low,0,None,None,0,2 weeks
+422,27,Male,13.6,5375,210682,Low,0,None,None,0,2 weeks
+423,35,Male,12.8,10672,198843,Low,0,None,None,0,2 weeks
+424,28,Female,14.5,5752,183400,Low,0,None,None,0,2 weeks
+425,51,Male,12.5,10452,395086,Low,0,None,None,0,2 weeks
+426,48,Female,14.7,10008,373423,Low,0,None,None,0,2 weeks
+427,23,Male,12.1,10414,170058,Low,0,None,None,0,2 weeks
+428,21,Male,13.5,10574,288941,Low,0,None,None,0,2 weeks
+429,79,Male,14.9,7263,351546,Low,0,None,None,0,2 weeks
+430,27,Male,12.5,7171,328124,Low,0,None,None,0,2 weeks
+431,79,Male,11.0,4667,348041,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+432,20,Male,13.8,10032,350639,Low,0,None,None,0,2 weeks
+433,78,Male,13.1,5577,154288,Low,0,None,None,0,2 weeks
+434,57,Male,11.3,6057,255017,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+435,55,Female,15.9,10951,255203,Low,0,None,None,0,2 weeks
+436,29,Male,15.7,7967,329538,Low,0,None,None,0,2 weeks
+437,68,Male,11.7,10486,200185,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+438,34,Male,12.9,5913,297618,Low,0,None,None,0,2 weeks
+439,57,Male,16.6,9798,267862,Low,0,None,Elevated hemoglobin,0,2 weeks
+440,59,Female,16.0,9007,179871,Low,0,None,None,0,2 weeks
+441,50,Female,13.3,10509,360705,Low,0,None,None,0,2 weeks
+442,40,Female,12.4,6470,179653,Low,0,None,None,0,2 weeks
+443,52,Male,15.3,6417,353118,Low,0,None,None,0,2 weeks
+444,41,Female,13.1,9667,360447,Low,0,None,None,0,2 weeks
+445,32,Male,13.9,9128,297008,Low,0,None,None,0,2 weeks
+446,54,Female,13.4,8736,306205,Low,0,None,None,0,2 weeks
+447,65,Male,11.6,7152,256816,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+448,59,Male,14.5,10011,242352,Low,0,None,None,0,2 weeks
+449,66,Male,14.4,9945,375166,Low,0,None,None,0,2 weeks
+450,41,Female,14.2,5749,367866,Low,0,None,None,0,2 weeks
+451,39,Female,16.2,5790,246421,Low,0,None,Elevated hemoglobin,0,2 weeks
+452,73,Female,13.9,6057,198669,Low,0,None,None,0,2 weeks
+453,71,Female,15.3,5536,218954,Low,0,None,None,0,2 weeks
+454,44,Male,12.9,9460,341865,Low,0,None,None,0,2 weeks
+455,20,Male,14.5,5326,373959,Low,0,None,None,0,2 weeks
+456,53,Female,12.1,4974,156238,Low,0,None,None,0,2 weeks
+457,50,Female,15.0,10426,242279,Low,0,None,None,0,2 weeks
+458,58,Female,10.9,6047,320224,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+459,42,Female,14.8,7452,367728,Low,0,None,None,0,2 weeks
+460,49,Female,15.6,5263,313890,Low,0,None,None,0,2 weeks
+461,60,Female,13.3,7908,295147,Low,0,None,None,0,2 weeks
+462,62,Female,12.9,7829,293158,Low,0,None,None,0,2 weeks
+463,78,Male,12.7,6066,182528,Low,0,None,None,0,2 weeks
+464,79,Male,13.2,8020,369449,Low,0,None,None,0,2 weeks
+465,69,Female,12.0,9698,321418,Low,0,None,None,0,2 weeks
+466,56,Male,13.7,4920,274275,Low,0,None,None,0,2 weeks
+467,22,Male,12.2,9824,214480,Low,0,None,None,0,2 weeks
+468,75,Male,11.9,7593,386274,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+469,63,Male,15.8,9545,226298,Low,0,None,None,0,2 weeks
+470,40,Female,14.6,9292,185438,Low,0,None,None,0,2 weeks
+471,46,Female,14.7,6742,321337,Low,0,None,None,0,2 weeks
+472,59,Female,14.0,9635,350322,Low,0,None,None,0,2 weeks
+473,57,Female,13.0,10392,168994,Low,0,None,None,0,2 weeks
+474,64,Male,14.1,7078,249533,Low,0,None,None,0,2 weeks
+475,36,Male,13.2,5855,300301,Low,0,None,None,0,2 weeks
+476,52,Male,12.5,5372,368920,Low,0,None,None,0,2 weeks
+477,44,Female,14.4,5542,210000,Low,0,None,None,0,2 weeks
+478,34,Female,15.8,5676,279767,Low,0,None,None,0,2 weeks
+479,47,Male,13.8,7875,320356,Low,0,None,None,0,2 weeks
+480,77,Female,14.7,5980,210949,Low,0,None,None,0,2 weeks
+481,65,Female,14.6,5808,384099,Low,0,None,None,0,2 weeks
+482,38,Female,13.8,8251,322914,Low,0,None,None,0,2 weeks
+483,42,Male,13.1,8262,340152,Low,0,None,None,0,2 weeks
+484,61,Male,15.0,7866,281195,Low,0,None,None,0,2 weeks
+485,31,Female,14.5,7110,186487,Low,0,None,None,0,2 weeks
+486,61,Female,13.2,9455,288345,Low,0,None,None,0,2 weeks
+487,44,Male,15.6,6996,192641,Low,0,None,None,0,2 weeks
+488,71,Male,16.9,6049,349097,Low,0,None,Elevated hemoglobin,0,2 weeks
+489,40,Female,15.7,10883,220197,Low,0,None,None,0,2 weeks
+490,72,Male,13.8,7843,367195,Low,0,None,None,0,2 weeks
+491,48,Male,14.1,4689,265316,Low,0,None,None,0,2 weeks
+492,78,Male,13.8,5149,268381,Low,0,None,None,0,2 weeks
+493,27,Female,11.4,5525,166059,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+494,42,Female,13.7,5752,358824,Low,0,None,None,0,2 weeks
+495,65,Male,12.0,7873,195262,Low,0,None,None,0,2 weeks
+496,21,Male,14.2,9952,243217,Low,0,None,None,0,2 weeks
+497,21,Male,14.5,9229,207871,Low,0,None,None,0,2 weeks
+498,52,Female,15.5,10451,396023,Low,0,None,None,0,2 weeks
+499,39,Female,17.4,7528,196287,Low,0,None,Elevated hemoglobin,0,2 weeks
+500,41,Male,13.1,9357,201708,Low,0,None,None,0,2 weeks
+=======
+PatientID,Age,Gender,Hemoglobin,WBC,Platelets,RiskLevel,RiskScore,AffectedSystems,PrimaryFindings,RecommendationCount,FollowUpPeriod
+1,54,Female,15.0,9020,380280,Low,0,None,None,0,2 weeks
+2,34,Male,15.2,5517,281065,Low,0,None,None,0,2 weeks
+3,69,Male,11.7,8452,388669,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+4,35,Female,14.5,5722,309200,Low,0,None,None,0,2 weeks
+5,45,Male,13.2,8258,357618,Low,0,None,None,0,2 weeks
+6,39,Female,13.6,5644,389759,Low,0,None,None,0,2 weeks
+7,43,Male,12.3,5739,373428,Low,0,None,None,0,2 weeks
+8,64,Male,15.7,10570,284038,Low,0,None,None,0,2 weeks
+9,20,Male,14.1,7891,183645,Low,0,None,None,0,2 weeks
+10,39,Female,14.9,8508,391411,Low,0,None,None,0,2 weeks
+11,31,Female,15.3,9124,262697,Low,0,None,None,0,2 weeks
+12,56,Male,15.8,10516,352366,Low,0,None,None,0,2 weeks
+13,24,Male,14.1,8999,268261,Low,0,None,None,0,2 weeks
+14,57,Male,13.3,7837,256713,Low,0,None,None,0,2 weeks
+15,44,Male,13.8,7761,352003,Low,0,None,None,0,2 weeks
+16,58,Female,15.2,10491,374260,Low,0,None,None,0,2 weeks
+17,72,Female,13.3,7382,359423,Low,0,None,None,0,2 weeks
+18,27,Female,11.4,7271,321983,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+19,27,Female,15.0,6772,206856,Low,0,None,None,0,2 weeks
+20,77,Male,12.3,6434,185826,Low,0,None,None,0,2 weeks
+21,73,Female,14.7,4794,367158,Low,0,None,None,0,2 weeks
+22,30,Male,16.5,8731,316339,Low,0,None,Elevated hemoglobin,0,2 weeks
+23,55,Female,12.7,6424,282877,Low,0,None,None,0,2 weeks
+24,41,Female,14.5,10504,195782,Low,0,None,None,0,2 weeks
+25,26,Female,13.9,9303,346729,Low,0,None,None,0,2 weeks
+26,55,Male,13.9,9305,334973,Low,0,None,None,0,2 weeks
+27,65,Male,13.0,6721,259803,Low,0,None,None,0,2 weeks
+28,59,Male,15.2,5687,367644,Low,0,None,None,0,2 weeks
+29,23,Male,13.6,5864,159000,Low,0,None,None,0,2 weeks
+30,34,Female,12.4,7761,238332,Low,0,None,None,0,2 weeks
+31,62,Male,13.4,5930,303735,Low,0,None,None,0,2 weeks
+32,45,Male,11.7,6707,387964,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+33,26,Female,13.4,8639,246127,Low,0,None,None,0,2 weeks
+34,35,Female,14.7,6704,327172,Low,0,None,None,0,2 weeks
+35,61,Female,14.6,6327,399584,Low,0,None,None,0,2 weeks
+36,68,Female,13.5,6040,155224,Low,0,None,None,0,2 weeks
+37,21,Male,15.8,8763,160958,Low,0,None,None,0,2 weeks
+38,70,Female,13.9,9351,177594,Low,0,None,None,0,2 weeks
+39,44,Female,12.8,10682,379675,Low,0,None,None,0,2 weeks
+40,44,Female,13.8,8609,296255,Low,0,None,None,0,2 weeks
+41,23,Female,12.4,7413,243525,Low,0,None,None,0,2 weeks
+42,78,Female,13.3,5785,282499,Low,0,None,None,0,2 weeks
+43,34,Female,13.5,8171,350492,Low,0,None,None,0,2 weeks
+44,46,Male,14.9,6917,255540,Low,0,None,None,0,2 weeks
+45,32,Female,12.6,7089,217673,Low,0,None,None,0,2 weeks
+46,42,Female,12.8,6017,315575,Low,0,None,None,0,2 weeks
+47,37,Female,11.9,6054,306522,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+48,21,Female,14.1,10317,343804,Low,0,None,None,0,2 weeks
+49,56,Male,14.1,7092,348212,Low,0,None,None,0,2 weeks
+50,74,Male,14.1,7448,342686,Low,0,None,None,0,2 weeks
+51,54,Male,11.8,5708,152553,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+52,66,Female,12.4,7013,348562,Low,0,None,None,0,2 weeks
+53,26,Male,13.0,9501,163867,Low,0,None,None,0,2 weeks
+54,49,Male,14.0,9108,164194,Low,0,None,None,0,2 weeks
+55,65,Male,13.3,10567,295805,Low,0,None,None,0,2 weeks
+56,78,Male,13.0,9809,295137,Low,0,None,None,0,2 weeks
+57,69,Female,13.8,10073,242741,Low,0,None,None,0,2 weeks
+58,36,Female,14.5,6295,159082,Low,0,None,None,0,2 weeks
+59,74,Female,13.3,9848,390825,Low,0,None,None,0,2 weeks
+60,46,Female,13.5,8504,331362,Low,0,None,None,0,2 weeks
+61,43,Female,14.1,10558,245189,Low,0,None,None,0,2 weeks
+62,37,Male,12.4,7097,281187,Low,0,None,None,0,2 weeks
+63,42,Male,13.2,9507,204779,Low,0,None,None,0,2 weeks
+64,73,Female,10.8,4968,216060,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+65,68,Female,12.3,10499,393456,Low,0,None,None,0,2 weeks
+66,37,Male,14.6,6215,268864,Low,0,None,None,0,2 weeks
+67,75,Female,11.4,7862,194978,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+68,26,Male,13.6,6973,296848,Low,0,None,None,0,2 weeks
+69,75,Female,15.2,8813,162309,Low,0,None,None,0,2 weeks
+70,63,Male,16.2,8166,233969,Low,0,None,Elevated hemoglobin,0,2 weeks
+71,59,Male,16.0,7381,387662,Low,0,None,None,0,2 weeks
+72,23,Female,13.2,9443,199358,Low,0,None,None,0,2 weeks
+73,69,Male,12.7,4747,308565,Low,0,None,None,0,2 weeks
+74,20,Female,14.4,10074,319220,Low,0,None,None,0,2 weeks
+75,34,Male,13.8,5001,232478,Low,0,None,None,0,2 weeks
+76,37,Female,14.7,7925,250132,Low,0,None,None,0,2 weeks
+77,22,Male,11.1,6921,268925,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+78,35,Male,13.1,5105,261990,Low,0,None,None,0,2 weeks
+79,54,Male,12.6,7870,324273,Low,0,None,None,0,2 weeks
+80,40,Female,15.5,10813,269795,Low,0,None,None,0,2 weeks
+81,40,Female,13.4,10570,326469,Low,0,None,None,0,2 weeks
+82,45,Female,17.3,7121,276690,Low,0,None,Elevated hemoglobin,0,2 weeks
+83,77,Male,13.7,4929,318882,Low,0,None,None,0,2 weeks
+84,76,Female,15.5,8501,243567,Low,0,None,None,0,2 weeks
+85,74,Male,13.7,8353,324295,Low,0,None,None,0,2 weeks
+86,39,Male,13.0,6729,214876,Low,0,None,None,0,2 weeks
+87,41,Male,11.8,5517,167346,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+88,50,Male,13.1,10430,192688,Low,0,None,None,0,2 weeks
+89,23,Female,10.3,7492,220822,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+90,55,Female,15.2,8384,188024,Low,0,None,None,0,2 weeks
+91,31,Male,12.6,10035,317205,Low,0,None,None,0,2 weeks
+92,22,Male,12.9,10811,167417,Low,0,None,None,0,2 weeks
+93,53,Female,13.1,8601,198528,Low,0,None,None,0,2 weeks
+94,73,Female,12.2,9467,352136,Low,0,None,None,0,2 weeks
+95,68,Male,12.5,8574,246628,Low,0,None,None,0,2 weeks
+96,37,Male,16.9,7564,353101,Low,0,None,Elevated hemoglobin,0,2 weeks
+97,27,Male,13.9,10465,233491,Low,0,None,None,0,2 weeks
+98,47,Female,14.6,8062,232456,Low,0,None,None,0,2 weeks
+99,22,Female,12.2,6364,185971,Low,0,None,None,0,2 weeks
+100,57,Female,11.9,10458,152306,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+101,36,Female,15.6,6007,176629,Low,0,None,None,0,2 weeks
+102,79,Male,12.1,10958,187806,Low,0,None,None,0,2 weeks
+103,24,Female,14.8,8425,248513,Low,0,None,None,0,2 weeks
+104,37,Female,17.9,9589,334669,Low,0,None,Elevated hemoglobin,0,2 weeks
+105,58,Female,14.0,6276,197364,Low,0,None,None,0,2 weeks
+106,53,Male,14.9,9699,336384,Low,0,None,None,0,2 weeks
+107,53,Male,12.2,10579,333673,Low,0,None,None,0,2 weeks
+108,40,Male,13.8,10627,280821,Low,0,None,None,0,2 weeks
+109,76,Female,12.5,9922,205764,Low,0,None,None,0,2 weeks
+110,56,Female,12.9,5320,327018,Low,0,None,None,0,2 weeks
+111,78,Female,11.1,8199,392203,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+112,39,Female,14.2,6021,296246,Low,0,None,None,0,2 weeks
+113,49,Female,14.2,6506,161528,Low,0,None,None,0,2 weeks
+114,31,Female,14.2,10836,225557,Low,0,None,None,0,2 weeks
+115,68,Female,13.8,5368,190801,Low,0,None,None,0,2 weeks
+116,54,Female,16.6,8218,344503,Low,0,None,Elevated hemoglobin,0,2 weeks
+117,35,Male,14.6,7576,399047,Low,0,None,None,0,2 weeks
+118,78,Male,13.5,8333,222487,Low,0,None,None,0,2 weeks
+119,45,Female,13.0,8316,168564,Low,0,None,None,0,2 weeks
+120,48,Male,13.2,10010,166035,Low,0,None,None,0,2 weeks
+121,42,Male,14.6,10489,258360,Low,0,None,None,0,2 weeks
+122,52,Male,12.2,8800,169197,Low,0,None,None,0,2 weeks
+123,70,Male,13.1,8049,366915,Low,0,None,None,0,2 weeks
+124,34,Male,10.5,4803,311866,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+125,75,Female,12.4,8383,392259,Low,0,None,None,0,2 weeks
+126,32,Male,14.8,5721,188689,Low,0,None,None,0,2 weeks
+127,77,Male,13.2,7354,281626,Low,0,None,None,0,2 weeks
+128,72,Female,12.5,6719,197671,Low,0,None,None,0,2 weeks
+129,45,Female,14.8,5374,207029,Low,0,None,None,0,2 weeks
+130,57,Female,12.2,5202,236362,Low,0,None,None,0,2 weeks
+131,40,Male,11.9,4718,285532,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+132,25,Female,13.5,7731,370478,Low,0,None,None,0,2 weeks
+133,32,Female,12.8,9972,197475,Low,0,None,None,0,2 weeks
+134,30,Male,12.8,4795,191625,Low,0,None,None,0,2 weeks
+135,24,Male,12.9,4711,174782,Low,0,None,None,0,2 weeks
+136,45,Male,13.1,7658,286600,Low,0,None,None,0,2 weeks
+137,41,Female,13.2,8665,219481,Low,0,None,None,0,2 weeks
+138,72,Female,13.7,6587,353003,Low,0,None,None,0,2 weeks
+139,24,Female,12.2,9828,245385,Low,0,None,None,0,2 weeks
+140,53,Female,12.8,10089,170170,Low,0,None,None,0,2 weeks
+141,61,Male,13.1,5302,277391,Low,0,None,None,0,2 weeks
+142,55,Female,12.6,8906,362241,Low,0,None,None,0,2 weeks
+143,79,Male,12.4,7468,164756,Low,0,None,None,0,2 weeks
+144,21,Male,14.3,4651,358805,Low,0,None,None,0,2 weeks
+145,32,Female,13.0,9208,368882,Low,0,None,None,0,2 weeks
+146,26,Male,11.3,5620,203712,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+147,29,Male,14.9,10163,257467,Low,0,None,None,0,2 weeks
+148,51,Female,10.7,7012,370000,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+149,36,Male,15.5,5587,394423,Low,0,None,None,0,2 weeks
+150,36,Female,14.8,6845,258950,Low,0,None,None,0,2 weeks
+151,60,Female,12.9,6208,170296,Low,0,None,None,0,2 weeks
+152,66,Male,13.7,6696,181790,Low,0,None,None,0,2 weeks
+153,78,Female,13.5,9952,196026,Low,0,None,None,0,2 weeks
+154,21,Male,7.9,8480,196073,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+155,63,Male,11.8,8953,311031,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+156,74,Female,11.4,5054,208909,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+157,39,Female,13.7,6295,216638,Low,0,None,None,0,2 weeks
+158,45,Male,14.0,10991,194975,Low,0,None,None,0,2 weeks
+159,21,Male,13.9,10466,372122,Low,0,None,None,0,2 weeks
+160,71,Female,12.6,9638,192689,Low,0,None,None,0,2 weeks
+161,21,Male,11.3,7660,300139,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+162,38,Male,15.9,9128,300000,Low,0,None,None,0,2 weeks
+163,57,Male,12.8,6917,165532,Low,0,None,None,0,2 weeks
+164,75,Female,10.5,5635,390039,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+165,68,Male,12.8,7714,224407,Low,0,None,None,0,2 weeks
+166,70,Male,14.5,8216,337682,Low,0,None,None,0,2 weeks
+167,77,Male,17.1,7670,184497,Low,0,None,Elevated hemoglobin,0,2 weeks
+168,20,Male,12.7,5254,380387,Low,0,None,None,0,2 weeks
+169,68,Female,12.0,8528,245943,Low,0,None,None,0,2 weeks
+170,62,Female,13.0,7870,340610,Low,0,None,None,0,2 weeks
+171,63,Male,11.5,10818,245404,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+172,69,Female,16.3,10373,207265,Low,0,None,Elevated hemoglobin,0,2 weeks
+173,21,Male,14.2,7847,360869,Low,0,None,None,0,2 weeks
+174,60,Female,14.2,7020,206124,Low,0,None,None,0,2 weeks
+175,23,Male,14.8,8109,395603,Low,0,None,None,0,2 weeks
+176,65,Female,13.1,6852,182398,Low,0,None,None,0,2 weeks
+177,54,Male,14.8,8823,195136,Low,0,None,None,0,2 weeks
+178,60,Male,11.8,10834,310695,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+179,26,Male,13.8,6748,273749,Low,0,None,None,0,2 weeks
+180,59,Female,10.9,5345,241966,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+181,57,Female,12.9,9957,364798,Low,0,None,None,0,2 weeks
+182,78,Male,13.4,8785,313415,Low,0,None,None,0,2 weeks
+183,31,Female,11.5,6116,206169,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+184,36,Male,14.1,6727,314460,Low,0,None,None,0,2 weeks
+185,55,Male,11.9,5403,331753,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+186,25,Female,11.4,5599,311500,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+187,21,Female,13.9,7212,319177,Low,0,None,None,0,2 weeks
+188,27,Female,14.6,4937,334246,Low,0,None,None,0,2 weeks
+189,66,Male,12.7,6120,280476,Low,0,None,None,0,2 weeks
+190,38,Male,13.9,7657,259686,Low,0,None,None,0,2 weeks
+191,32,Female,14.4,7024,315239,Low,0,None,None,0,2 weeks
+192,71,Male,12.9,7493,230345,Low,0,None,None,0,2 weeks
+193,62,Male,11.9,7464,164254,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+194,53,Male,14.6,5028,253349,Low,0,None,None,0,2 weeks
+195,21,Female,13.5,10554,154249,Low,0,None,None,0,2 weeks
+196,34,Female,11.4,5661,248274,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+197,29,Male,11.5,8136,242072,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+198,56,Male,13.8,10693,208880,Low,0,None,None,0,2 weeks
+199,39,Female,11.9,6208,206560,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+200,20,Male,12.8,6573,181760,Low,0,None,None,0,2 weeks
+201,24,Male,14.0,5660,355113,Low,0,None,None,0,2 weeks
+202,77,Male,12.3,6444,362451,Low,0,None,None,0,2 weeks
+203,76,Female,14.9,10300,249914,Low,0,None,None,0,2 weeks
+204,61,Male,14.6,4595,351263,Low,0,None,None,0,2 weeks
+205,25,Female,13.1,6207,365723,Low,0,None,None,0,2 weeks
+206,43,Female,11.5,8998,172150,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+207,22,Female,13.3,8880,219451,Low,0,None,None,0,2 weeks
+208,42,Male,12.7,10751,223788,Low,0,None,None,0,2 weeks
+209,71,Female,13.0,8894,237707,Low,0,None,None,0,2 weeks
+210,59,Female,13.4,10966,245093,Low,0,None,None,0,2 weeks
+211,20,Male,13.3,5445,270989,Low,0,None,None,0,2 weeks
+212,48,Female,15.0,6772,305934,Low,0,None,None,0,2 weeks
+213,53,Male,15.4,5436,354282,Low,0,None,None,0,2 weeks
+214,77,Female,13.1,9394,241701,Low,0,None,None,0,2 weeks
+215,68,Female,13.5,9841,386970,Low,0,None,None,0,2 weeks
+216,39,Female,12.7,6022,328493,Low,0,None,None,0,2 weeks
+217,23,Female,13.7,4870,168630,Low,0,None,None,0,2 weeks
+218,75,Male,14.7,9226,156868,Low,0,None,None,0,2 weeks
+219,59,Female,15.3,6481,395840,Low,0,None,None,0,2 weeks
+220,31,Male,10.1,10379,181398,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+221,39,Female,11.6,8691,286174,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+222,33,Male,14.0,9571,219929,Low,0,None,None,0,2 weeks
+223,40,Male,14.6,9598,178595,Low,0,None,None,0,2 weeks
+224,46,Female,12.4,5397,376277,Low,0,None,None,0,2 weeks
+225,66,Female,11.2,6244,358786,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+226,77,Female,13.5,8903,206291,Low,0,None,None,0,2 weeks
+227,70,Male,15.2,4702,326765,Low,0,None,None,0,2 weeks
+228,25,Female,13.8,9083,336922,Low,0,None,None,0,2 weeks
+229,67,Male,14.7,7482,296677,Low,0,None,None,0,2 weeks
+230,48,Male,13.3,6852,290430,Low,0,None,None,0,2 weeks
+231,75,Male,14.1,8974,336888,Low,0,None,None,0,2 weeks
+232,34,Female,13.9,9251,282764,Low,0,None,None,0,2 weeks
+233,73,Female,15.3,8638,211963,Low,0,None,None,0,2 weeks
+234,50,Male,12.6,7412,190853,Low,0,None,None,0,2 weeks
+235,34,Female,14.2,10888,182083,Low,0,None,None,0,2 weeks
+236,34,Female,13.7,5116,349076,Low,0,None,None,0,2 weeks
+237,70,Female,12.7,7269,324133,Low,0,None,None,0,2 weeks
+238,74,Male,13.1,7805,242172,Low,0,None,None,0,2 weeks
+239,71,Male,14.0,4503,279484,Low,0,None,None,0,2 weeks
+240,21,Female,14.8,7938,370080,Low,0,None,None,0,2 weeks
+241,79,Male,13.4,6713,299292,Low,0,None,None,0,2 weeks
+242,74,Male,12.8,6073,319473,Low,0,None,None,0,2 weeks
+243,66,Female,15.6,8187,357975,Low,0,None,None,0,2 weeks
+244,57,Male,13.3,8280,374521,Low,0,None,None,0,2 weeks
+245,40,Male,14.9,4783,280770,Low,0,None,None,0,2 weeks
+246,40,Female,13.4,9986,273773,Low,0,None,None,0,2 weeks
+247,42,Female,13.0,10172,302242,Low,0,None,None,0,2 weeks
+248,57,Female,13.4,8992,328952,Low,0,None,None,0,2 weeks
+249,67,Male,14.8,7407,332145,Low,0,None,None,0,2 weeks
+250,74,Female,14.8,8967,286936,Low,0,None,None,0,2 weeks
+251,71,Female,14.2,8184,161515,Low,0,None,None,0,2 weeks
+252,34,Male,14.7,7068,279421,Low,0,None,None,0,2 weeks
+253,34,Female,13.6,7274,229403,Low,0,None,None,0,2 weeks
+254,54,Female,15.1,7552,380107,Low,0,None,None,0,2 weeks
+255,33,Female,14.2,9318,253047,Low,0,None,None,0,2 weeks
+256,72,Male,12.6,7949,232245,Low,0,None,None,0,2 weeks
+257,24,Male,11.9,7604,291163,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+258,36,Male,14.9,8045,175840,Low,0,None,None,0,2 weeks
+259,79,Male,10.5,10968,374191,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+260,68,Female,15.6,5097,259552,Low,0,None,None,0,2 weeks
+261,38,Male,13.0,5560,385224,Low,0,None,None,0,2 weeks
+262,45,Female,14.1,6997,267898,Low,0,None,None,0,2 weeks
+263,21,Male,15.2,4529,294132,Low,0,None,None,0,2 weeks
+264,47,Female,14.9,5721,234177,Low,0,None,None,0,2 weeks
+265,66,Female,14.7,10550,308109,Low,0,None,None,0,2 weeks
+266,53,Female,13.8,9671,159400,Low,0,None,None,0,2 weeks
+267,65,Male,12.9,7906,191328,Low,0,None,None,0,2 weeks
+268,39,Male,13.7,6879,388406,Low,0,None,None,0,2 weeks
+269,21,Female,14.4,9828,233750,Low,0,None,None,0,2 weeks
+270,34,Female,19.0,6824,226218,Low,0,None,Elevated hemoglobin,0,2 weeks
+271,35,Male,12.5,4846,342116,Low,0,None,None,0,2 weeks
+272,51,Female,13.5,6407,231706,Low,0,None,None,0,2 weeks
+273,37,Male,14.4,5246,207874,Low,0,None,None,0,2 weeks
+274,35,Male,10.2,5931,152568,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+275,54,Female,15.9,9082,298232,Low,0,None,None,0,2 weeks
+276,74,Female,12.3,5569,164968,Low,0,None,None,0,2 weeks
+277,20,Female,9.1,6188,343796,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+278,44,Male,16.1,5088,386908,Low,0,None,Elevated hemoglobin,0,2 weeks
+279,52,Male,16.1,5386,268024,Low,0,None,Elevated hemoglobin,0,2 weeks
+280,75,Male,14.2,8976,182394,Low,0,None,None,0,2 weeks
+281,62,Female,13.2,8677,162782,Low,0,None,None,0,2 weeks
+282,54,Female,11.9,4559,250350,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+283,37,Male,14.7,7806,377749,Low,0,None,None,0,2 weeks
+284,56,Female,12.9,7626,262253,Low,0,None,None,0,2 weeks
+285,52,Male,12.6,10530,230036,Low,0,None,None,0,2 weeks
+286,67,Female,13.1,7133,219261,Low,0,None,None,0,2 weeks
+287,47,Male,14.1,7687,234790,Low,0,None,None,0,2 weeks
+288,50,Female,13.3,4956,266552,Low,0,None,None,0,2 weeks
+289,23,Female,13.7,9613,280403,Low,0,None,None,0,2 weeks
+290,26,Female,12.5,6169,281172,Low,0,None,None,0,2 weeks
+291,29,Female,13.7,10698,313958,Low,0,None,None,0,2 weeks
+292,31,Male,13.0,10868,307023,Low,0,None,None,0,2 weeks
+293,57,Male,12.4,6615,379900,Low,0,None,None,0,2 weeks
+294,78,Male,13.1,6779,158779,Low,0,None,None,0,2 weeks
+295,27,Female,12.5,6148,184606,Low,0,None,None,0,2 weeks
+296,38,Female,12.2,9418,252427,Low,0,None,None,0,2 weeks
+297,71,Male,13.7,6785,307371,Low,0,None,None,0,2 weeks
+298,52,Male,10.3,10366,205603,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+299,49,Female,15.4,9969,262782,Low,0,None,None,0,2 weeks
+300,59,Female,12.8,7323,292342,Low,0,None,None,0,2 weeks
+301,62,Male,17.1,5933,239965,Low,0,None,Elevated hemoglobin,0,2 weeks
+302,28,Female,10.9,4759,326700,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+303,62,Female,11.1,5329,348450,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+304,77,Female,12.4,10398,341075,Low,0,None,None,0,2 weeks
+305,40,Female,12.2,4949,269114,Low,0,None,None,0,2 weeks
+306,27,Female,16.4,5391,330873,Low,0,None,Elevated hemoglobin,0,2 weeks
+307,30,Male,11.9,4865,253322,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+308,51,Male,13.1,5264,182795,Low,0,None,None,0,2 weeks
+309,26,Male,12.7,4896,205102,Low,0,None,None,0,2 weeks
+310,52,Male,11.2,10975,337707,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+311,50,Male,11.3,5544,323045,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+312,38,Male,15.0,7603,313766,Low,0,None,None,0,2 weeks
+313,69,Male,12.6,4715,398655,Low,0,None,None,0,2 weeks
+314,79,Female,14.6,6800,310028,Low,0,None,None,0,2 weeks
+315,57,Male,13.4,5178,306250,Low,0,None,None,0,2 weeks
+316,51,Female,11.7,6232,357466,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+317,38,Male,15.1,5957,318863,Low,0,None,None,0,2 weeks
+318,30,Female,9.6,10852,365044,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+319,34,Female,11.4,8260,389195,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+320,33,Female,13.6,6091,341325,Low,0,None,None,0,2 weeks
+321,28,Male,13.4,4877,175905,Low,0,None,None,0,2 weeks
+322,73,Male,11.7,9842,388409,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+323,59,Male,15.0,7029,390132,Low,0,None,None,0,2 weeks
+324,67,Female,14.3,7752,219718,Low,0,None,None,0,2 weeks
+325,79,Male,14.7,9626,215516,Low,0,None,None,0,2 weeks
+326,35,Male,16.2,7244,279365,Low,0,None,Elevated hemoglobin,0,2 weeks
+327,35,Male,15.1,10381,194081,Low,0,None,None,0,2 weeks
+328,27,Female,14.0,8105,242063,Low,0,None,None,0,2 weeks
+329,47,Female,13.6,10628,180708,Low,0,None,None,0,2 weeks
+330,22,Female,13.1,4901,192133,Low,0,None,None,0,2 weeks
+331,66,Male,14.6,5287,297660,Low,0,None,None,0,2 weeks
+332,55,Male,13.5,9204,307251,Low,0,None,None,0,2 weeks
+333,66,Male,11.2,6244,355098,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+334,37,Female,15.3,6740,310360,Low,0,None,None,0,2 weeks
+335,58,Female,13.5,9432,198702,Low,0,None,None,0,2 weeks
+336,79,Male,14.4,5290,325305,Low,0,None,None,0,2 weeks
+337,65,Female,14.6,10632,319249,Low,0,None,None,0,2 weeks
+338,32,Female,11.4,6473,362616,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+339,26,Female,13.2,10811,253645,Low,0,None,None,0,2 weeks
+340,60,Male,15.2,6942,180517,Low,0,None,None,0,2 weeks
+341,27,Male,13.0,8349,281124,Low,0,None,None,0,2 weeks
+342,38,Female,12.2,9960,345279,Low,0,None,None,0,2 weeks
+343,44,Female,12.2,9341,297856,Low,0,None,None,0,2 weeks
+344,46,Male,15.5,7182,272876,Low,0,None,None,0,2 weeks
+345,49,Female,13.1,10773,368565,Low,0,None,None,0,2 weeks
+346,67,Female,13.8,5434,262958,Low,0,None,None,0,2 weeks
+347,28,Male,12.7,5325,347991,Low,0,None,None,0,2 weeks
+348,70,Female,14.4,8004,248942,Low,0,None,None,0,2 weeks
+349,38,Male,13.5,9835,282791,Low,0,None,None,0,2 weeks
+350,57,Female,12.6,10324,344866,Low,0,None,None,0,2 weeks
+351,21,Female,14.3,7163,192800,Low,0,None,None,0,2 weeks
+352,77,Female,14.1,5725,283346,Low,0,None,None,0,2 weeks
+353,77,Male,13.6,10730,247453,Low,0,None,None,0,2 weeks
+354,51,Female,11.3,8679,287205,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+355,72,Male,13.3,6878,200473,Low,0,None,None,0,2 weeks
+356,43,Female,14.6,5404,384838,Low,0,None,None,0,2 weeks
+357,72,Female,16.0,7322,270271,Low,0,None,None,0,2 weeks
+358,44,Female,14.5,9168,231904,Low,0,None,None,0,2 weeks
+359,38,Male,11.9,9873,287499,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+360,22,Male,14.0,10251,376049,Low,0,None,None,0,2 weeks
+361,25,Female,15.0,8183,325620,Low,0,None,None,0,2 weeks
+362,29,Male,12.0,6122,384454,Low,0,None,None,0,2 weeks
+363,21,Male,13.2,6768,157634,Low,0,None,None,0,2 weeks
+364,50,Female,12.6,8954,207550,Low,0,None,None,0,2 weeks
+365,51,Female,15.6,10290,151327,Low,0,None,None,0,2 weeks
+366,37,Female,15.9,5227,381015,Low,0,None,None,0,2 weeks
+367,55,Female,11.0,10863,207714,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+368,35,Female,15.9,9525,225451,Low,0,None,None,0,2 weeks
+369,46,Female,12.0,9331,312151,Low,0,None,None,0,2 weeks
+370,74,Male,12.4,9503,343844,Low,0,None,None,0,2 weeks
+371,35,Male,13.9,10743,331901,Low,0,None,None,0,2 weeks
+372,38,Male,12.2,10601,353954,Low,0,None,None,0,2 weeks
+373,53,Male,14.5,7418,259784,Low,0,None,None,0,2 weeks
+374,74,Male,12.1,6989,260433,Low,0,None,None,0,2 weeks
+375,60,Male,12.7,8438,282227,Low,0,None,None,0,2 weeks
+376,23,Female,9.6,4546,214036,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+377,45,Female,15.5,6194,334959,Low,0,None,None,0,2 weeks
+378,32,Female,14.3,9177,273504,Low,0,None,None,0,2 weeks
+379,79,Female,11.4,6883,208587,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+380,38,Female,13.5,10415,234116,Low,0,None,None,0,2 weeks
+381,41,Male,12.0,5003,365034,Low,0,None,None,0,2 weeks
+382,47,Male,15.8,7758,370960,Low,0,None,None,0,2 weeks
+383,66,Female,14.6,4920,275090,Low,0,None,None,0,2 weeks
+384,59,Female,11.8,8833,223406,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+385,51,Male,16.7,9669,242827,Low,0,None,Elevated hemoglobin,0,2 weeks
+386,78,Female,12.0,4763,156825,Low,0,None,None,0,2 weeks
+387,36,Male,14.1,8167,272051,Low,0,None,None,0,2 weeks
+388,24,Male,12.3,5658,361211,Low,0,None,None,0,2 weeks
+389,40,Male,13.4,8360,356433,Low,0,None,None,0,2 weeks
+390,20,Female,12.8,10254,239305,Low,0,None,None,0,2 weeks
+391,72,Male,14.5,6188,271887,Low,0,None,None,0,2 weeks
+392,20,Female,14.2,4531,249488,Low,0,None,None,0,2 weeks
+393,21,Male,13.8,10264,237596,Low,0,None,None,0,2 weeks
+394,70,Female,12.3,10632,362214,Low,0,None,None,0,2 weeks
+395,64,Male,14.5,4558,205772,Low,0,None,None,0,2 weeks
+396,75,Female,14.0,7000,319187,Low,0,None,None,0,2 weeks
+397,48,Male,12.6,9290,182248,Low,0,None,None,0,2 weeks
+398,72,Female,13.7,7524,207114,Low,0,None,None,0,2 weeks
+399,27,Male,12.1,7609,297860,Low,0,None,None,0,2 weeks
+400,77,Female,15.1,4738,293597,Low,0,None,None,0,2 weeks
+401,29,Female,14.3,9603,330281,Low,0,None,None,0,2 weeks
+402,24,Male,13.8,10178,200396,Low,0,None,None,0,2 weeks
+403,31,Female,15.1,8497,305908,Low,0,None,None,0,2 weeks
+404,39,Female,10.8,7610,308037,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+405,60,Female,13.9,7518,387263,Low,0,None,None,0,2 weeks
+406,64,Female,9.0,9331,394567,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+407,39,Female,12.8,7062,399911,Low,0,None,None,0,2 weeks
+408,48,Male,16.1,7080,165066,Low,0,None,Elevated hemoglobin,0,2 weeks
+409,26,Male,16.3,6942,166945,Low,0,None,Elevated hemoglobin,0,2 weeks
+410,61,Female,14.0,6744,230502,Low,0,None,None,0,2 weeks
+411,29,Male,13.3,4839,353104,Low,0,None,None,0,2 weeks
+412,55,Female,13.3,10993,394373,Low,0,None,None,0,2 weeks
+413,56,Male,13.1,9884,316489,Low,0,None,None,0,2 weeks
+414,40,Female,16.3,5891,353138,Low,0,None,Elevated hemoglobin,0,2 weeks
+415,36,Female,12.9,10774,321160,Low,0,None,None,0,2 weeks
+416,54,Female,12.2,9602,237898,Low,0,None,None,0,2 weeks
+417,68,Male,14.4,7249,229643,Low,0,None,None,0,2 weeks
+418,50,Female,12.0,5958,230416,Low,0,None,None,0,2 weeks
+419,32,Female,14.1,5613,361971,Low,0,None,None,0,2 weeks
+420,65,Male,13.6,7659,161594,Low,0,None,None,0,2 weeks
+421,57,Male,12.3,4709,319939,Low,0,None,None,0,2 weeks
+422,27,Male,13.6,5375,210682,Low,0,None,None,0,2 weeks
+423,35,Male,12.8,10672,198843,Low,0,None,None,0,2 weeks
+424,28,Female,14.5,5752,183400,Low,0,None,None,0,2 weeks
+425,51,Male,12.5,10452,395086,Low,0,None,None,0,2 weeks
+426,48,Female,14.7,10008,373423,Low,0,None,None,0,2 weeks
+427,23,Male,12.1,10414,170058,Low,0,None,None,0,2 weeks
+428,21,Male,13.5,10574,288941,Low,0,None,None,0,2 weeks
+429,79,Male,14.9,7263,351546,Low,0,None,None,0,2 weeks
+430,27,Male,12.5,7171,328124,Low,0,None,None,0,2 weeks
+431,79,Male,11.0,4667,348041,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+432,20,Male,13.8,10032,350639,Low,0,None,None,0,2 weeks
+433,78,Male,13.1,5577,154288,Low,0,None,None,0,2 weeks
+434,57,Male,11.3,6057,255017,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+435,55,Female,15.9,10951,255203,Low,0,None,None,0,2 weeks
+436,29,Male,15.7,7967,329538,Low,0,None,None,0,2 weeks
+437,68,Male,11.7,10486,200185,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+438,34,Male,12.9,5913,297618,Low,0,None,None,0,2 weeks
+439,57,Male,16.6,9798,267862,Low,0,None,Elevated hemoglobin,0,2 weeks
+440,59,Female,16.0,9007,179871,Low,0,None,None,0,2 weeks
+441,50,Female,13.3,10509,360705,Low,0,None,None,0,2 weeks
+442,40,Female,12.4,6470,179653,Low,0,None,None,0,2 weeks
+443,52,Male,15.3,6417,353118,Low,0,None,None,0,2 weeks
+444,41,Female,13.1,9667,360447,Low,0,None,None,0,2 weeks
+445,32,Male,13.9,9128,297008,Low,0,None,None,0,2 weeks
+446,54,Female,13.4,8736,306205,Low,0,None,None,0,2 weeks
+447,65,Male,11.6,7152,256816,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+448,59,Male,14.5,10011,242352,Low,0,None,None,0,2 weeks
+449,66,Male,14.4,9945,375166,Low,0,None,None,0,2 weeks
+450,41,Female,14.2,5749,367866,Low,0,None,None,0,2 weeks
+451,39,Female,16.2,5790,246421,Low,0,None,Elevated hemoglobin,0,2 weeks
+452,73,Female,13.9,6057,198669,Low,0,None,None,0,2 weeks
+453,71,Female,15.3,5536,218954,Low,0,None,None,0,2 weeks
+454,44,Male,12.9,9460,341865,Low,0,None,None,0,2 weeks
+455,20,Male,14.5,5326,373959,Low,0,None,None,0,2 weeks
+456,53,Female,12.1,4974,156238,Low,0,None,None,0,2 weeks
+457,50,Female,15.0,10426,242279,Low,0,None,None,0,2 weeks
+458,58,Female,10.9,6047,320224,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+459,42,Female,14.8,7452,367728,Low,0,None,None,0,2 weeks
+460,49,Female,15.6,5263,313890,Low,0,None,None,0,2 weeks
+461,60,Female,13.3,7908,295147,Low,0,None,None,0,2 weeks
+462,62,Female,12.9,7829,293158,Low,0,None,None,0,2 weeks
+463,78,Male,12.7,6066,182528,Low,0,None,None,0,2 weeks
+464,79,Male,13.2,8020,369449,Low,0,None,None,0,2 weeks
+465,69,Female,12.0,9698,321418,Low,0,None,None,0,2 weeks
+466,56,Male,13.7,4920,274275,Low,0,None,None,0,2 weeks
+467,22,Male,12.2,9824,214480,Low,0,None,None,0,2 weeks
+468,75,Male,11.9,7593,386274,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+469,63,Male,15.8,9545,226298,Low,0,None,None,0,2 weeks
+470,40,Female,14.6,9292,185438,Low,0,None,None,0,2 weeks
+471,46,Female,14.7,6742,321337,Low,0,None,None,0,2 weeks
+472,59,Female,14.0,9635,350322,Low,0,None,None,0,2 weeks
+473,57,Female,13.0,10392,168994,Low,0,None,None,0,2 weeks
+474,64,Male,14.1,7078,249533,Low,0,None,None,0,2 weeks
+475,36,Male,13.2,5855,300301,Low,0,None,None,0,2 weeks
+476,52,Male,12.5,5372,368920,Low,0,None,None,0,2 weeks
+477,44,Female,14.4,5542,210000,Low,0,None,None,0,2 weeks
+478,34,Female,15.8,5676,279767,Low,0,None,None,0,2 weeks
+479,47,Male,13.8,7875,320356,Low,0,None,None,0,2 weeks
+480,77,Female,14.7,5980,210949,Low,0,None,None,0,2 weeks
+481,65,Female,14.6,5808,384099,Low,0,None,None,0,2 weeks
+482,38,Female,13.8,8251,322914,Low,0,None,None,0,2 weeks
+483,42,Male,13.1,8262,340152,Low,0,None,None,0,2 weeks
+484,61,Male,15.0,7866,281195,Low,0,None,None,0,2 weeks
+485,31,Female,14.5,7110,186487,Low,0,None,None,0,2 weeks
+486,61,Female,13.2,9455,288345,Low,0,None,None,0,2 weeks
+487,44,Male,15.6,6996,192641,Low,0,None,None,0,2 weeks
+488,71,Male,16.9,6049,349097,Low,0,None,Elevated hemoglobin,0,2 weeks
+489,40,Female,15.7,10883,220197,Low,0,None,None,0,2 weeks
+490,72,Male,13.8,7843,367195,Low,0,None,None,0,2 weeks
+491,48,Male,14.1,4689,265316,Low,0,None,None,0,2 weeks
+492,78,Male,13.8,5149,268381,Low,0,None,None,0,2 weeks
+493,27,Female,11.4,5525,166059,Moderate,2,Immune,Low hemoglobin suggesting anemia,3,2 weeks
+494,42,Female,13.7,5752,358824,Low,0,None,None,0,2 weeks
+495,65,Male,12.0,7873,195262,Low,0,None,None,0,2 weeks
+496,21,Male,14.2,9952,243217,Low,0,None,None,0,2 weeks
+497,21,Male,14.5,9229,207871,Low,0,None,None,0,2 weeks
+498,52,Female,15.5,10451,396023,Low,0,None,None,0,2 weeks
+499,39,Female,17.4,7528,196287,Low,0,None,Elevated hemoglobin,0,2 weeks
+500,41,Male,13.1,9357,201708,Low,0,None,None,0,2 weeks
+>>>>>>> ef48543973ff00c7354e499b779e45c91eb1d450

@@ -1,0 +1,22 @@
+{
+  "age_groups": {
+    "young": {"range": "18-35", "multiplier": 1.0},
+    "middle": {"range": "36-50", "multiplier": 0.95},
+    "senior": {"range": "51-65", "multiplier": 0.90},
+    "elderly": {"range": ">65", "multiplier": 0.85}
+  },
+  "parameter_adjustments": {
+    "hemoglobin": {
+      "male": {"young": [13.5, 17.5], "middle": [13.0, 17.0], "senior": [12.5, 16.5], "elderly": [11.5, 15.5]},
+      "female": {"young": [12.0, 16.0], "middle": [11.8, 15.8], "senior": [11.5, 15.5], "elderly": [11.0, 15.0]}
+    },
+    "glucose": {
+      "male": {"young": [70, 100], "middle": [70, 105], "senior": [70, 110], "elderly": [70, 115]},
+      "female": {"young": [70, 100], "middle": [70, 105], "senior": [70, 110], "elderly": [70, 115]}
+    },
+    "cholesterol": {
+      "male": {"young": [0, 200], "middle": [0, 210], "senior": [0, 220], "elderly": [0, 230]},
+      "female": {"young": [0, 200], "middle": [0, 210], "senior": [0, 220], "elderly": [0, 230]}
+    }
+  }
+}

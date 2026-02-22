@@ -1,0 +1,839 @@
+<<<<<<< HEAD
+patient_id,age,gender,hemoglobin,wbc,platelets,rbc,m1_hemoglobin,m1_wbc,m1_platelets,patterns,risk_score,risk_category,is_critical,age_group
+1,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+2,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+3,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+4,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+5,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+6,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+7,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+8,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+9,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+10,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+11,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+12,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+13,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+14,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+15,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+16,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+17,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+18,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+19,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+20,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+21,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+22,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+23,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+24,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+25,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+26,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+27,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+28,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+29,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+30,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+31,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+32,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+33,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+34,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+35,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+36,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+37,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+38,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+39,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+40,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+41,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+42,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+43,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+44,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+45,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+46,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+47,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+48,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+49,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+50,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+51,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+52,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+53,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+54,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+55,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+56,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+57,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+58,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+59,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+60,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+61,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+62,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+63,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+64,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+65,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+66,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+67,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+68,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+69,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+70,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+71,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+72,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+73,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+74,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+75,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+76,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+77,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+78,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+79,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+80,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+81,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+82,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+83,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+84,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+85,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+86,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+87,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+88,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+89,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+90,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+91,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+92,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+93,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+94,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+95,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+96,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+97,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+98,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+99,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+100,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+101,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+102,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+103,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+104,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+105,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+106,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+107,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+108,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+109,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+110,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+111,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+112,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+113,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+114,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+115,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+116,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+117,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+118,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+119,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+120,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+121,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+122,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+123,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+124,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+125,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+126,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+127,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+128,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+129,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+130,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+131,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+132,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+133,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+134,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+135,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+136,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+137,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+138,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+139,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+140,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+141,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+142,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+143,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+144,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+145,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+146,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+147,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+148,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+149,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+150,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+151,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+152,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+153,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+154,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+155,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+156,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+157,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+158,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+159,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+160,42.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+161,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+162,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+163,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+164,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+165,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+166,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+167,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+168,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+169,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+170,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+171,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+172,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+173,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+174,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+175,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+176,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+177,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+178,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+179,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+180,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+181,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+182,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+183,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+184,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+185,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+186,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+187,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+188,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+189,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+190,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+191,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+192,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+193,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+194,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+195,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+196,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+197,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+198,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+199,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+200,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+201,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+202,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+203,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+204,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+205,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+206,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+207,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+208,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+209,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+210,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+211,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+212,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+213,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+214,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+215,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+216,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+217,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+218,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+219,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+220,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+221,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+222,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+223,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+224,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+225,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+226,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+227,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+228,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+229,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+230,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+231,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+232,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+233,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+234,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+235,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+236,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+237,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+238,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+239,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+240,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+241,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+242,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+243,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+244,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+245,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+246,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+247,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+248,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+249,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+250,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+251,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+252,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+253,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+254,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+255,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+256,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+257,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+258,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+259,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+260,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+261,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+262,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+263,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+264,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+265,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+266,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+267,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+268,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+269,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+270,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+271,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+272,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+273,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+274,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+275,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+276,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+277,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+278,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+279,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+280,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+281,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+282,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+283,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+284,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+285,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+286,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+287,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+288,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+289,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+290,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+291,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+292,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+293,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+294,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+295,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+296,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+297,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+298,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+299,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+300,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+301,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+302,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+303,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+304,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+305,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+306,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+307,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+308,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+309,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+310,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+311,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+312,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+313,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+314,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+315,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+316,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+317,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+318,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+319,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+320,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+321,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+322,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+323,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+324,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+325,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+326,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+327,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+328,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+329,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+330,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+331,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+332,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+333,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+334,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+335,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+336,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+337,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+338,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+339,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+340,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+341,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+342,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+343,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+344,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+345,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+346,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+347,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+348,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+349,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+350,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+351,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+352,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+353,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+354,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+355,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+356,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+357,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+358,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+359,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+360,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+361,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+362,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+363,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+364,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+365,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+366,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+367,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+368,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+369,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+370,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+371,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+372,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+373,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+374,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+375,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+376,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+377,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+378,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+379,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+380,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+381,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+382,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+383,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+384,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+385,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+386,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+387,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+388,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+389,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+390,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+391,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+392,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+393,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+394,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+395,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+396,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+397,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+398,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+399,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+400,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+401,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+402,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+403,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+404,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+405,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+406,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+407,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+408,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+409,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+410,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+411,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+412,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+413,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+414,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+415,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+416,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+417,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+=======
+patient_id,age,gender,hemoglobin,wbc,platelets,rbc,m1_hemoglobin,m1_wbc,m1_platelets,patterns,risk_score,risk_category,is_critical,age_group
+1,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+2,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+3,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+4,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+5,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+6,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+7,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+8,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+9,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+10,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+11,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+12,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+13,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+14,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+15,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+16,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+17,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+18,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+19,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+20,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+21,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+22,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+23,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+24,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+25,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+26,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+27,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+28,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+29,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+30,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+31,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+32,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+33,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+34,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+35,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+36,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+37,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+38,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+39,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+40,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+41,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+42,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+43,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+44,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+45,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+46,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+47,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+48,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+49,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+50,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+51,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+52,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+53,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+54,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+55,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+56,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+57,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+58,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+59,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+60,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+61,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+62,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+63,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+64,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+65,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+66,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+67,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+68,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+69,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+70,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+71,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+72,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+73,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+74,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+75,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+76,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+77,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+78,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+79,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+80,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+81,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+82,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+83,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+84,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+85,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+86,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+87,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+88,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+89,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+90,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+91,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+92,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+93,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+94,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+95,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+96,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+97,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+98,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+99,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+100,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+101,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+102,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+103,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+104,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+105,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+106,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+107,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+108,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+109,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+110,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+111,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+112,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+113,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+114,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+115,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+116,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+117,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+118,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+119,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+120,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+121,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+122,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+123,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+124,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+125,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+126,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+127,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+128,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+129,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+130,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+131,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+132,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+133,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+134,57.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+135,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+136,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+137,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+138,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+139,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+140,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+141,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+142,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+143,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+144,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+145,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+146,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+147,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+148,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+149,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+150,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+151,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+152,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+153,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+154,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+155,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+156,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+157,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+158,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+159,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+160,42.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+161,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+162,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+163,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+164,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+165,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+166,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+167,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+168,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+169,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+170,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+171,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+172,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+173,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+174,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+175,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+176,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+177,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+178,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+179,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+180,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+181,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+182,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+183,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+184,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+185,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+186,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+187,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+188,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+189,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+190,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+191,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+192,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+193,48.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+194,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+195,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+196,31.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+197,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+198,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+199,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+200,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+201,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+202,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+203,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+204,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+205,31.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+206,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+207,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+208,58.0,Female,10.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+209,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+210,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+211,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+212,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+213,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+214,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+215,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+216,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+217,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+218,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+219,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+220,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+221,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+222,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+223,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+224,32.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+225,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+226,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+227,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+228,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+229,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+230,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+231,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+232,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+233,42.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+234,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+235,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+236,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+237,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+238,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+239,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+240,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+241,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+242,36.0,Male,14.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+243,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+244,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+245,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+246,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+247,29.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+248,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+249,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+250,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+251,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+252,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+253,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+254,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+255,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+256,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+257,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+258,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+259,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+260,29.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+261,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+262,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+263,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+264,70.0,Female,10.2,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+265,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+266,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+267,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+268,68.0,Female,10.4,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+269,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+270,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+271,33.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+272,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+273,29.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+274,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+275,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+276,22.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+277,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+278,64.0,Female,10.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+279,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+280,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+281,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+282,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+283,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+284,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+285,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+286,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+287,28.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+288,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+289,33.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+290,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+291,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+292,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+293,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+294,30.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+295,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+296,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+297,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+298,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+299,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+300,49.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+301,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+302,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+303,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+304,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+305,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+306,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+307,22.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+308,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+309,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+310,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+311,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+312,55.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+313,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+314,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+315,26.0,Male,13.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+316,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+317,52.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+318,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+319,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+320,49.0,Male,13.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+321,54.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+322,53.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+323,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+324,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+325,28.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+326,40.0,Male,14.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+327,58.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+328,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+329,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+330,39.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+331,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+332,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+333,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+334,27.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+335,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+336,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+337,32.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+338,56.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+339,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+340,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+341,27.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+342,43.0,Male,14.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+343,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+344,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+345,36.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+346,50.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+347,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+348,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+349,47.0,Male,13.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+350,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+351,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+352,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+353,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+354,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+355,52.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+356,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+357,45.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+358,60.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+359,35.0,Female,11.7,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+360,67.0,Female,10.3,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,ELDERLY
+361,63.0,Female,10.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+362,34.0,Female,11.9,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+363,25.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+364,44.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+365,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+366,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+367,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+368,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+369,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+370,35.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+371,43.0,Female,12.3,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+372,24.0,Male,13.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+373,47.0,Female,12.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+374,38.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+375,37.0,Female,12.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+376,34.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+377,25.0,Male,13.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+378,48.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+379,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+380,23.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+381,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+382,50.0,Male,13.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+383,36.0,Female,11.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,MIDDLE
+384,33.0,Male,14.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+385,42.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+386,51.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+387,37.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+388,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+389,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+390,65.0,Female,10.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+391,44.0,Female,12.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+392,30.0,Female,12.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+393,55.0,Male,14.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+394,35.0,Female,11.5,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+395,59.0,Male,14.8,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+396,39.0,Male,15.1,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+397,29.0,Female,12.7,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+398,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+399,31.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+400,62.0,Female,10.6,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+401,41.0,Female,12.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+402,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+403,50.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+404,43.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+405,45.0,Male,15.0,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+406,37.0,Male,14.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+407,38.0,Male,14.9,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+408,26.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+409,48.0,Male,13.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+410,38.0,Female,12.4,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+411,28.0,Male,13.6,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,YOUNG
+412,40.0,Female,12.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+413,40.0,Male,15.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+414,52.0,Male,13.5,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,SENIOR
+415,30.0,Female,11.8,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,YOUNG
+416,60.0,Female,11.0,0,0,0,Low,Normal,Normal,['Anemia Risk'],2,HIGH,1,SENIOR
+417,46.0,Male,14.2,0,0,0,Normal,Normal,Normal,[],0,NORMAL,0,MIDDLE
+>>>>>>> ef48543973ff00c7354e499b779e45c91eb1d450

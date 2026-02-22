@@ -1,0 +1,174 @@
+<<<<<<< HEAD
+[
+  {
+    "patient_id": 1,
+    "age": 54,
+    "gender": "Female",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 2,
+    "age": 34,
+    "gender": "Male",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 3,
+    "age": 69,
+    "gender": "Male",
+    "risk_assessment": {
+      "overall_risk": "Moderate",
+      "risk_score": 2,
+      "affected_systems": [
+        "Immune"
+      ]
+    },
+    "clinical_findings": "Low hemoglobin suggesting anemia",
+    "recommendations": {
+      "priority_actions": [
+        "Low hemoglobin suggesting anemia"
+      ],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 4,
+    "age": 35,
+    "gender": "Female",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 5,
+    "age": 45,
+    "gender": "Male",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  }
+=======
+[
+  {
+    "patient_id": 1,
+    "age": 54,
+    "gender": "Female",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 2,
+    "age": 34,
+    "gender": "Male",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 3,
+    "age": 69,
+    "gender": "Male",
+    "risk_assessment": {
+      "overall_risk": "Moderate",
+      "risk_score": 2,
+      "affected_systems": [
+        "Immune"
+      ]
+    },
+    "clinical_findings": "Low hemoglobin suggesting anemia",
+    "recommendations": {
+      "priority_actions": [
+        "Low hemoglobin suggesting anemia"
+      ],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 4,
+    "age": 35,
+    "gender": "Female",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  },
+  {
+    "patient_id": 5,
+    "age": 45,
+    "gender": "Male",
+    "risk_assessment": {
+      "overall_risk": "Low",
+      "risk_score": 0,
+      "affected_systems": []
+    },
+    "clinical_findings": "None",
+    "recommendations": {
+      "priority_actions": [],
+      "follow_up": "2 weeks"
+    },
+    "timestamp": "2026-02-05T19:04:27.520768"
+  }
+>>>>>>> ef48543973ff00c7354e499b779e45c91eb1d450
+]

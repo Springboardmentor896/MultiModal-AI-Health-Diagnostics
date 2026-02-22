@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+{
+  "timestamp": "20260202_145854",
+  "csv_file_used": "blood_count_dataset.csv",
+  "total_patients": 417,
+  "critical_cases": 87,
+  "avg_risk_score": 0.4172661870503597,
+  "risk_distribution": {
+    "NORMAL": 330,
+    "HIGH": 87
+  },
+  "top_patterns": {
+=======
+{
+  "timestamp": "20260202_145854",
+  "csv_file_used": "blood_count_dataset.csv",
+  "total_patients": 417,
+  "critical_cases": 87,
+  "avg_risk_score": 0.4172661870503597,
+  "risk_distribution": {
+    "NORMAL": 330,
+    "HIGH": 87
+  },
+  "top_patterns": {
+>>>>>>> ef48543973ff00c7354e499b779e45c91eb1d450
+    "Anemia Risk": 

@@ -1,0 +1,73 @@
+{
+  "patterns": [
+    {
+      "id": "P001",
+      "name": "Diabetes & Cardiovascular Risk",
+      "triggers": [
+        {"glucose": ">126"},
+        {"cholesterol": ">240"}
+      ],
+      "risk_level": "HIGH",
+      "confidence": 0.92,
+      "clinical_significance": "Diabetes with cardiovascular complications",
+      "recommendations": ["Endocrinology consult", "HbA1c test", "Lipid profile", "Cardiology evaluation"]
+    },
+    {
+      "id": "P002", 
+      "name": "Infection & Anemia Risk",
+      "triggers": [
+        {"white_blood_cells": ">11000"},
+        {"hemoglobin": "<12.0"}
+      ],
+      "risk_level": "HIGH", 
+      "confidence": 0.87,
+      "clinical_significance": "Possible infection with anemia",
+      "recommendations": ["Blood culture", "CBC follow-up", "Infectious disease consult"]
+    },
+    {
+      "id": "P003",
+      "name": "Bleeding Risk", 
+      "triggers": [
+        {"platelet_count": "<150000"}
+      ],
+      "risk_level": "MEDIUM",
+      "confidence": 0.95,
+      "clinical_significance": "Thrombocytopenia",
+      "recommendations": ["Coagulation panel", "Bleeding history", "Hematology consult"]
+    },
+    {
+      "id": "P004",
+      "name": "Metabolic Syndrome",
+      "triggers": [
+        {"glucose": ">110"},
+        {"cholesterol": ">200"}
+      ],
+      "risk_level": "MEDIUM",
+      "confidence": 0.85,
+      "clinical_significance": "Pre-diabetes + dyslipidemia",
+      "recommendations": ["Fasting glucose", "Diet counseling", "Exercise program"]
+    },
+    {
+      "id": "P005",
+      "name": "Inflammatory Response",
+      "triggers": [
+        {"white_blood_cells": ">11000"}
+      ],
+      "risk_level": "LOW",
+      "confidence": 0.78,
+      "clinical_significance": "Acute inflammation",
+      "recommendations": ["Monitor trends", "CRP test"]
+    },
+    {
+      "id": "P006",
+      "name": "Anemia Risk",
+      "triggers": [
+        {"hemoglobin": "<12.0"}
+      ],
+      "risk_level": "LOW", 
+      "confidence": 0.90,
+      "clinical_significance": "Possible anemia",
+      "recommendations": ["Iron studies", "B12/folate", "Reticulocyte count"]
+    }
+  ]
+}

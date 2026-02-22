@@ -1,0 +1,208 @@
+import pandas as pd
+import numpy as np
+import json
+from datetime import datetime
+import os
+from typing import Dict, Any, List, Optional
+
+print("=" * 80)
+print("🚀 MILESTONE 4 FULL WORKFLOW ORCHESTRATOR - AI AGENT CORE")
+print("=" * 80)
+
+class Model1_ParameterClassifier:
+    def __init__(self):
+        self.normal_ranges = {
+            "Hemoglobin": (12.0, 16.0),
+            "PlateletCount": (150000, 400000),
+            "WhiteBloodCells": (4500, 11000)
+        }
+
+    def classify(self, params: Dict[str, float]) -> Dict[str, str]:
+        classification = {}
+        for param, value in params.items():
+            if param in self.normal_ranges:
+                low, high = self.normal_ranges[param]
+                if value < low:
+                    classification[param] = "Low"
+                elif value > high:
+                    classification[param] = "High"
+                else:
+                    classification[param] = "Normal"
+        return classification
+
+class Model2_RiskModel:
+    def compute_risk(self, classifications: Dict[str, str]) -> Dict[str, Any]:
+        patterns = []
+        risk_score = 0
+
+        if classifications.get("WhiteBloodCells") == "High":
+            patterns.append("Infection Risk")
+            risk_score += 2
+
+        if classifications.get("PlateletCount") == "Low":
+            patterns.append("Bleeding Disorder")
+            risk_score += 2
+
+        if classifications.get("Hemoglobin") == "Low":
+            patterns.append("Anemia")
+            risk_score += 2
+
+        return {
+            "patterns": patterns,
+            "risk_score": risk_score,
+            "risk_level": "High" if risk_score >= 4 else "Moderate" if risk_score >= 2 else "Low"
+        }
+
+class Model3_ContextAnalyzer:
+    def add_context(self, age: int, gender: str, risk_patterns: List[str]) -> List[str]:
+        context = []
+        if age > 60 and "Anemia" in risk_patterns:
+            context.append("Age-related anemia concern - monitor closely")
+        if gender == "Female" and "Anemia" in risk_patterns:
+            context.append("Consider gynecological causes in females")
+        return context
+
+class KnowledgeRetriever:
+    def retrieve(self, classifications: Dict[str, str], risk: Dict[str, Any]) -> List[str]:
+        # Simple RAG stub - could connect to vector DB later
+        knowledge = []
+        if classifications.get("Hemoglobin") == "Low":
+            knowledge.append("Low hemoglobin (<12g/dL females, <13g/dL males): Iron deficiency common")
+        if classifications.get("WhiteBloodCells") == "High":
+            knowledge.append("Elevated WBC (>11k): Consider infection, inflammation, stress")
+        return knowledge
+
+class RecommendationGenerator:
+    def generate(self, classifications: Dict[str, str], risk: Dict[str, Any], context: List[str]) -> List[str]:
+        recs = []
+
+        if classifications.get("Hemoglobin") == "Low":
+            recs.extend([
+                "Increase dietary iron (spinach, red meat, lentils)",
+                "Consider vitamin C with meals for better absorption",
+                "Follow up with ferritin test",
+                "Consult physician for iron studies"
+            ])
+
+        if classifications.get("PlateletCount") == "Low":
+            recs.extend([
+                "Avoid contact sports and trauma",
+                "Monitor for bruising/bleeding",
+                "Hematology consultation recommended"
+            ])
+
+        if classifications.get("WhiteBloodCells") == "High":
+            recs.extend([
+                "Monitor for fever or infection symptoms",
+                "Complete blood count repeat in 1 week",
+                "Consider infectious disease evaluation if persistent"
+            ])
+
+        return recs[:6]  # Limit to top 6
+
+class SynthesisEngine:
+    def synthesize(self, classifications: Dict[str, str], risk: Dict[str, Any], context: List[str], recs: List[str]) -> str:
+        findings = []
+        for param, status in classifications.items():
+            if status != "Normal":
+                findings.append(f"{param} {status.lower()}")
+
+        narrative = f"Key observations: {', '.join(findings) or 'All parameters within normal limits'}."
+        if risk["risk_score"] > 0:
+            narrative += f" Overall risk level: {risk['risk_level']} (score: {risk['risk_score']}/10)."
+        if context:
+            narrative += f" Context: {'; '.join(context)}."
+
+        return narrative
+
+class ConfidenceEstimator:
+    def estimate(self, classifications: Dict[str, str]) -> Dict[str, Any]:
+        # Simple heuristic
+        abnormal_count = sum(1 for v in classifications.values() if v != "Normal")
+        score = max(0.3, 1.0 - abnormal_count * 0.15)
+        label = "high" if score > 0.8 else "medium" if score > 0.5 else "low"
+        return {"score": round(score, 2), "label": label}
+
+class ReportGenerator:
+    DISCLAIMER = (
+        "🩺 MEDICAL DISCLAIMER: This report is generated by an AI system for "
+        "educational and informational purposes ONLY. It is NOT a medical diagnosis "
+        "or professional medical advice. Always consult a qualified physician for "
+        "interpretation of lab results and treatment recommendations. "
+        "The system uses conservative thresholds and general guidelines."
+    )
+
+    def generate_report(self, data: Dict[str, Any], classifications: Dict[str, str], 
+                       risk: Dict[str, Any], context: List[str], recs: List[str], 
+                       synthesis: str, confidence: Dict[str, Any]) -> Dict[str, Any]:
+        return {
+            "timestamp": datetime.now().isoformat(),
+            "patient_data": data,
+            "classifications": classifications,
+            "risk_assessment": risk,
+            "context_notes": context,
+            "recommendations": recs,
+            "synthesis": synthesis,
+            "confidence": confidence,
+            "disclaimer": self.DISCLAIMER
+        }
+
+class Milestone4Orchestrator:
+    def __init__(self):
+        self.model1 = Model1_ParameterClassifier()
+        self.model2 = Model2_RiskModel()
+        self.model3 = Model3_ContextAnalyzer()
+        self.knowledge = KnowledgeRetriever()
+        self.recs = RecommendationGenerator()
+        self.synthesis = SynthesisEngine()
+        self.confidence = ConfidenceEstimator()
+        self.reporter = ReportGenerator()
+
+    def run_full_workflow(self, patient_data: Dict[str, Any]) -> Dict[str, Any]:
+        print("🔬 Step 1: Parameter classification (Model 1)")
+        classifications = self.model1.classify(patient_data)
+
+        print("📊 Step 2: Risk assessment (Model 2)")
+        risk = self.model2.compute_risk(classifications)
+
+        print("📝 Step 3: Context analysis (Model 3)")
+        context = self.model3.add_context(patient_data["Age"], patient_data["Gender"], risk["patterns"])
+
+        print("📚 Step 4: Knowledge retrieval (RAG)")
+        knowledge = self.knowledge.retrieve(classifications, risk)
+
+        print("💡 Step 5: Recommendation generation")
+        recs = self.recs.generate(classifications, risk, context)
+
+        print("🔗 Step 6: Synthesis engine")
+        synthesis = self.synthesis.synthesize(classifications, risk, context, recs)
+
+        print("🎯 Step 7: Confidence estimation")
+        confidence = self.confidence.estimate(classifications)
+
+        print("📋 Step 8: Report generation")
+        report = self.reporter.generate_report(patient_data, classifications, risk, 
+                                             context, recs, synthesis, confidence)
+
+        return report
+
+def demo_run():
+    # Demo patient data (replace with CSV loading)
+    demo_patient = {
+        "Age": 55,
+        "Gender": "Male",
+        "Hemoglobin": 11.2,
+        "PlateletCount": 120000,
+        "WhiteBloodCells": 12500
+    }
+
+    orch = Milestone4Orchestrator()
+    report = orch.run_full_workflow(demo_patient)
+
+    print("\n" + "=" * 80)
+    print("✨ MILESTONE 4 FULL WORKFLOW COMPLETE")
+    print("=" * 80)
+    print(json.dumps(report, indent=2, default=str))
+
+if __name__ == "__main__":
+    demo_run()

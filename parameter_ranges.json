@@ -1,0 +1,51 @@
+{
+  "hemoglobin": {
+    "unit": "g/dL",
+    "low": 12.0,
+    "high": 16.0,
+    "critical_low": 7.0,
+    "critical_high": 20.0
+  },
+  "platelet_count": {
+    "unit": "/μL",
+    "low": 150000,
+    "high": 400000,
+    "critical_low": 50000,
+    "critical_high": 1000000
+  },
+  "white_blood_cells": {
+    "unit": "/μL",
+    "low": 4500,
+    "high": 11000,
+    "critical_low": 2000,
+    "critical_high": 30000
+  },
+  "red_blood_cells": {
+    "unit": "million/μL",
+    "low": 4.5,
+    "high": 5.5,
+    "critical_low": 2.0,
+    "critical_high": 8.0
+  },
+  "mcv": {
+    "unit": "fL",
+    "low": 80,
+    "high": 100,
+    "critical_low": 50,
+    "critical_high": 150
+  },
+  "mch": {
+    "unit": "pg",
+    "low": 27,
+    "high": 33,
+    "critical_low": 15,
+    "critical_high": 50
+  },
+  "mchc": {
+    "unit": "g/dL",
+    "low": 32,
+    "high": 36,
+    "critical_low": 25,
+    "critical_high": 40
+  }
+}
