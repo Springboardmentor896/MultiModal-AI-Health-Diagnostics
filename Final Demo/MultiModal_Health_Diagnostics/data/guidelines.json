@@ -1,0 +1,14 @@
+{
+  "high_Fasting_Glucose": "Elevated fasting glucose suggests diabetes risk. Monitor A1C, low-carb diet.",
+  "low_Hemoglobin": "Low hemoglobin may indicate anemia. Iron supplements, investigate causes.",
+  "high_Total_Cholesterol": "High cholesterol increases CVD risk. Statins, heart-healthy diet.",
+  "high_Serum_Creatinine": "Elevated creatinine signals kidney issues. Hydrate, nephrologist consult.",
+  "high_ALT": "Elevated ALT indicates liver stress. Avoid alcohol, ultrasound.",
+  "high_TSH": "High TSH suggests hypothyroidism. Endocrinology referral.",
+  "high_Systolic_BP": "Hypertension risk. Lifestyle mods, BP monitor.",
+  "high_WBC": "Elevated WBC may indicate infection. CBC follow-up.",
+  "low_Platelets": "Thrombocytopenia—bleeding risk. Hematology.",
+  "low_Potassium": "Hypokalemia. Banana-rich diet, recheck.",
+  "low_Vitamin_D": "Deficiency common. Sun/supplements 2000IU daily.",
+  "high_Ferritin": "Iron overload possible. Avoid iron supps."
+}
